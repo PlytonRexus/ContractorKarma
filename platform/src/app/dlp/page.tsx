@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { DlpBadge } from '@/components/road/DlpBadge';
 import { DlpLegend } from '@/components/map/DlpOverlay';
 import type { DlpStatus } from '@/types/road';
@@ -101,7 +102,7 @@ export default function DlpTrackerPage() {
       {/* Results */}
       <div className="space-y-2">
         {filtered.map((road) => (
-          <a
+          <Link
             key={road.roadId}
             href={`/road/bengaluru/${road.roadId}/`}
             className="flex items-center justify-between border rounded-lg px-4 py-3 hover:bg-accent transition-colors"
@@ -114,7 +115,7 @@ export default function DlpTrackerPage() {
               </p>
             </div>
             <DlpBadge dlpEndDate={road.dlpEnd} showDetails />
-          </a>
+          </Link>
         ))}
         {filtered.length === 0 && (
           <p className="text-sm text-muted-foreground py-4">

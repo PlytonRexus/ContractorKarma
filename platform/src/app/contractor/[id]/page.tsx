@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import {
   getAllContractors,
   getContractor,
@@ -114,7 +115,7 @@ export default function ContractorPage({ params }: ContractorPageProps) {
         </h2>
         <div className="space-y-2">
           {contractorRoads.map((road) => (
-            <a
+            <Link
               key={road.roadId}
               href={`/road/bengaluru/${road.roadId}/`}
               className="block border rounded-lg px-4 py-3 hover:bg-accent transition-colors"
@@ -125,7 +126,7 @@ export default function ContractorPage({ params }: ContractorPageProps) {
                   {formatCurrency(road.totalSpending)}
                 </span>
               </div>
-            </a>
+            </Link>
           ))}
           {contractorRoads.length === 0 && (
             <p className="text-sm text-muted-foreground">

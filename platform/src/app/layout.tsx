@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,25 +28,25 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           <header className="border-b bg-white sticky top-0 z-50">
             <div className="container mx-auto px-4 h-14 flex items-center justify-between">
-              <a href="/" className="font-bold text-lg">
+              <Link href="/" className="font-bold text-lg">
                 Contractor Karma
-              </a>
+              </Link>
               <nav className="hidden md:flex items-center gap-6 text-sm">
-                <a href="/dlp/" className="hover:text-primary">
+                <Link href="/dlp/" className="hover:text-primary">
                   DLP Tracker
-                </a>
-                <a href="/red-flags/" className="hover:text-primary">
+                </Link>
+                <Link href="/red-flags/" className="hover:text-primary">
                   Red Flags
-                </a>
-                <a href="/data/" className="hover:text-primary">
+                </Link>
+                <Link href="/data/" className="hover:text-primary">
                   Data
-                </a>
-                <a href="/rti-library/" className="hover:text-primary">
+                </Link>
+                <Link href="/rti-library/" className="hover:text-primary">
                   RTI Library
-                </a>
-                <a href="/about/" className="hover:text-primary">
+                </Link>
+                <Link href="/about/" className="hover:text-primary">
                   About
-                </a>
+                </Link>
               </nav>
             </div>
           </header>
@@ -55,9 +56,9 @@ export default function RootLayout({
               <p>
                 Data sourced from official RTI responses under RTI Act, 2005.
                 Presented as-is.{' '}
-                <a href="/about/" className="underline">
+                <Link href="/about/" className="underline">
                   Methodology
-                </a>
+                </Link>
               </p>
               <p className="mt-1">
                 Open source on{' '}

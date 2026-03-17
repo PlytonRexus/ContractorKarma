@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Contractor } from '@/types/contractor';
 import { formatCurrency } from '@/lib/formatCurrency';
 import { PerformanceGrade } from './PerformanceGrade';
@@ -10,7 +11,7 @@ export function ContractorCard({ contractor }: ContractorCardProps) {
   const stats = contractor.stats;
 
   return (
-    <a
+    <Link
       href={`/contractor/${contractor.contractorId}/`}
       className="block border rounded-lg p-4 hover:bg-accent transition-colors"
     >
@@ -51,6 +52,6 @@ export function ContractorCard({ contractor }: ContractorCardProps) {
           <p className="font-medium">{stats.dlpViolations}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

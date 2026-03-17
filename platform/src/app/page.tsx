@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getStats, getRedFlags, getAllWards } from '@/lib/data';
 import { formatCurrency } from '@/lib/formatCurrency';
 import { StatCard } from '@/components/common/StatCard';
@@ -47,7 +48,7 @@ export default function HomePage() {
           <h2 className="text-lg font-semibold mb-3">Browse by Ward</h2>
           <div className="space-y-2">
             {wards.map(({ cityId, zoneId, wardId, ward }) => (
-              <a
+              <Link
                 key={wardId}
                 href={`/ward/${cityId}/${zoneId}/${wardId}/`}
                 className="block border rounded-lg px-4 py-3 hover:bg-accent transition-colors"
@@ -56,7 +57,7 @@ export default function HomePage() {
                 <span className="text-xs text-muted-foreground ml-2">
                   Ward {ward.wardNumber}
                 </span>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -77,12 +78,12 @@ export default function HomePage() {
                   </p>
                 </div>
               ))}
-              <a
+              <Link
                 href="/red-flags/"
                 className="text-sm text-primary hover:underline"
               >
                 View all red flags
-              </a>
+              </Link>
             </div>
           ) : (
             <p className="text-sm text-muted-foreground">
@@ -94,7 +95,7 @@ export default function HomePage() {
 
       {/* Quick Links */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        <a
+        <Link
           href="/dlp/"
           className="border rounded-lg p-4 text-center hover:bg-accent transition-colors"
         >
@@ -102,8 +103,8 @@ export default function HomePage() {
           <p className="text-xs text-muted-foreground mt-1">
             Warranty status lookup
           </p>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/contractor/"
           className="border rounded-lg p-4 text-center hover:bg-accent transition-colors"
         >
@@ -111,8 +112,8 @@ export default function HomePage() {
           <p className="text-xs text-muted-foreground mt-1">
             Performance rankings
           </p>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/data/"
           className="border rounded-lg p-4 text-center hover:bg-accent transition-colors"
         >
@@ -120,8 +121,8 @@ export default function HomePage() {
           <p className="text-xs text-muted-foreground mt-1">
             Browse and download
           </p>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/rti-library/"
           className="border rounded-lg p-4 text-center hover:bg-accent transition-colors"
         >
@@ -129,7 +130,7 @@ export default function HomePage() {
           <p className="text-xs text-muted-foreground mt-1">
             Applications filed
           </p>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
+import Link from 'next/link';
 import { searchEntries } from '@/lib/search';
 import { SearchEntry } from '@/lib/data';
 
@@ -93,7 +94,7 @@ export function SearchBar({
       {isOpen && results.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white border rounded-lg shadow-lg max-h-80 overflow-y-auto z-50">
           {results.map((result) => (
-            <a
+            <Link
               key={`${result.type}-${result.id}`}
               href={result.url}
               className="flex items-center gap-3 px-4 py-3 hover:bg-accent border-b last:border-b-0"
@@ -107,7 +108,7 @@ export function SearchBar({
                   {result.subtitle}
                 </p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       )}

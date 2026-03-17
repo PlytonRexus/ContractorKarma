@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Road } from '@/types/road';
 import { DlpBadge } from './DlpBadge';
 import { formatCurrency } from '@/lib/formatCurrency';
@@ -9,7 +10,7 @@ interface RoadCardProps {
 
 export function RoadCard({ road, cityId }: RoadCardProps) {
   return (
-    <a
+    <Link
       href={`/road/${cityId}/${road.roadId}/`}
       className="block border rounded-lg p-4 hover:bg-accent transition-colors"
     >
@@ -31,6 +32,6 @@ export function RoadCard({ road, cityId }: RoadCardProps) {
         <span>Total spent: {formatCurrency(road.totalSpending)}</span>
         <span>{road.totalWorksCount} work{road.totalWorksCount !== 1 ? 's' : ''}</span>
       </div>
-    </a>
+    </Link>
   );
 }

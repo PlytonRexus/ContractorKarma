@@ -6,6 +6,7 @@ export const metadata = {
 };
 
 export default function DataPage() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const stats = getStats();
   const wards = getAllWards();
   const contractors = getAllContractors();
@@ -63,14 +64,14 @@ export default function DataPage() {
               </div>
               <div className="flex gap-2">
                 <a
-                  href={`/data/cities/${cityId}/zones/${zoneId}/wards/${wardId}/roads.json`}
+                  href={`${basePath}/data/cities/${cityId}/zones/${zoneId}/wards/${wardId}/roads.json`}
                   className="text-xs px-2 py-1 border rounded hover:bg-accent"
                   download
                 >
                   roads.json
                 </a>
                 <a
-                  href={`/data/cities/${cityId}/zones/${zoneId}/wards/${wardId}/works.json`}
+                  href={`${basePath}/data/cities/${cityId}/zones/${zoneId}/wards/${wardId}/works.json`}
                   className="text-xs px-2 py-1 border rounded hover:bg-accent"
                   download
                 >
@@ -91,7 +92,7 @@ export default function DataPage() {
               </p>
             </div>
             <a
-              href="/data/contractors/index.json"
+              href={`${basePath}/data/contractors/index.json`}
               className="text-xs px-2 py-1 border rounded hover:bg-accent"
               download
             >
@@ -108,7 +109,7 @@ export default function DataPage() {
               </p>
             </div>
             <a
-              href="/data/red-flags/flags.json"
+              href={`${basePath}/data/red-flags/flags.json`}
               className="text-xs px-2 py-1 border rounded hover:bg-accent"
               download
             >

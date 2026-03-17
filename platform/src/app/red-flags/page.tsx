@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getRedFlags } from '@/lib/data';
 
 export const metadata = {
@@ -80,20 +81,20 @@ export default function RedFlagsPage() {
                 <p className="text-sm font-medium">{flag.description}</p>
                 <div className="flex flex-wrap gap-3 mt-1.5 text-xs text-muted-foreground">
                   {flag.roadName && (
-                    <a
+                    <Link
                       href={`/road/bengaluru/${flag.roadId}/`}
                       className="hover:underline"
                     >
                       {flag.roadName}
-                    </a>
+                    </Link>
                   )}
                   {flag.contractorName && (
-                    <a
+                    <Link
                       href={`/contractor/${flag.contractorId}/`}
                       className="hover:underline"
                     >
                       {flag.contractorName}
-                    </a>
+                    </Link>
                   )}
                   <span>{flag.severity} severity</span>
                 </div>
