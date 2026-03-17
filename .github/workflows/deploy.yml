@@ -31,7 +31,7 @@ jobs:
         run: cd platform && npm run validate-data
 
       - name: Build static site
-        run: cd platform && npm run build
+        run: cd platform && NEXT_PUBLIC_BASE_PATH="/ContractorKarma" npm run build
 
       - name: Verify build output
         run: |
