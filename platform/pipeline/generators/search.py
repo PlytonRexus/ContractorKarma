@@ -115,6 +115,7 @@ def _collect_work_entries(data_dir):
                             "type": "work",
                             "id": work.get("jobCode"),
                             "label": work.get("description"),
+                            "roadId": work.get("roadId"),
                             "ward": ward_slug,
                         })
                 except (json.JSONDecodeError, OSError) as exc:

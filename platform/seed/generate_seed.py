@@ -1154,6 +1154,7 @@ def generate():
                 "type": "work",
                 "id": w["jobCode"],
                 "label": w["description"],
+                "roadId": w["roadId"],
                 "ward": w["jobCode"].split("-")[0] + "-" +
                         {"150": "bellandur", "168": "jayanagar",
                          "176": "btm-layout"}.get(w["jobCode"].split("-")[0], "unknown"),

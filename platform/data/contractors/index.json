@@ -113,8 +113,8 @@
       "dlpViolations": 2,
       "avgCostPerKm": 9576263,
       "wardsActive": [
-        "168-jayanagar",
-        "150-bellandur"
+        "150-bellandur",
+        "168-jayanagar"
       ],
       "performanceGrade": "A",
       "performanceScore": 0.9
@@ -150,9 +150,9 @@
       "dlpViolations": 5,
       "avgCostPerKm": 4275547,
       "wardsActive": [
+        "150-bellandur",
         "168-jayanagar",
-        "176-btm-layout",
-        "150-bellandur"
+        "176-btm-layout"
       ],
       "performanceGrade": "D",
       "performanceScore": 0.44
@@ -188,9 +188,9 @@
       "dlpViolations": 5,
       "avgCostPerKm": 4605776,
       "wardsActive": [
+        "150-bellandur",
         "168-jayanagar",
-        "176-btm-layout",
-        "150-bellandur"
+        "176-btm-layout"
       ],
       "performanceGrade": "D",
       "performanceScore": 0.46
@@ -222,9 +222,9 @@
       "dlpViolations": 2,
       "avgCostPerKm": 3206949,
       "wardsActive": [
+        "150-bellandur",
         "168-jayanagar",
-        "176-btm-layout",
-        "150-bellandur"
+        "176-btm-layout"
       ],
       "performanceGrade": "D",
       "performanceScore": 0.5
@@ -256,8 +256,8 @@
       "dlpViolations": 2,
       "avgCostPerKm": 5810157,
       "wardsActive": [
-        "176-btm-layout",
-        "150-bellandur"
+        "150-bellandur",
+        "176-btm-layout"
       ],
       "performanceGrade": "D",
       "performanceScore": 0.47

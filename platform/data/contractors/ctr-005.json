@@ -14,9 +14,9 @@
     "dlpViolations": 5,
     "avgCostPerKm": 4275547,
     "wardsActive": [
+      "150-bellandur",
       "168-jayanagar",
-      "176-btm-layout",
-      "150-bellandur"
+      "176-btm-layout"
     ],
     "performanceGrade": "D",
     "performanceScore": 0.44

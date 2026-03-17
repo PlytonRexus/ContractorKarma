@@ -318,11 +318,65 @@ export interface SearchEntry {
   url: string;
 }
 
+// Raw search entry as produced by the Python pipeline
+export interface RawSearchEntry {
+  type: 'road' | 'contractor' | 'work';
+  id: string;
+  label: string;
+  aliases?: string[];
+  ward?: string;
+  roadId?: string;
+}
+
+const cityPrefixMap: Record<string, string> = { blr: 'bengaluru' };
+
+function formatWard(ward: string): string {
+  // "150-bellandur" -> "Ward 150, Bellandur"
+  const parts = ward.split('-');
+  if (parts.length < 2) return ward;
+  const num = parts[0];
+  const name = parts.slice(1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return `Ward ${num}, ${name}`;
+}
+
+function cityFromId(id: string): string {
+  const prefix = id.split('-')[0];
+  return cityPrefixMap[prefix] || prefix;
+}
+
+export function toSearchEntry(raw: RawSearchEntry): SearchEntry {
+  let subtitle = '';
+  let url = '';
+
+  switch (raw.type) {
+    case 'road':
+      subtitle = raw.ward ? formatWard(raw.ward) : '';
+      url = `/road/${cityFromId(raw.id)}/${raw.id}/`;
+      break;
+    case 'contractor':
+      subtitle = 'Contractor';
+      url = `/contractor/${raw.id}/`;
+      break;
+    case 'work': {
+      subtitle = raw.ward ? `Job Code: ${raw.id} | ${formatWard(raw.ward)}` : `Job Code: ${raw.id}`;
+      const linkId = raw.roadId || raw.id;
+      url = `/road/${cityFromId(linkId)}/${linkId}/`;
+      break;
+    }
+  }
+
+  return {
+    type: raw.type,
+    id: raw.id,
+    title: raw.label,
+    subtitle,
+    url,
+  };
+}
+
 export function getSearchIndex(): SearchEntry[] {
-  const raw = readJson<{ entries?: SearchEntry[] } | SearchEntry[]>('search/index.json');
+  const raw = readJson<{ entries?: RawSearchEntry[] } | RawSearchEntry[]>('search/index.json');
   if (!raw) return [];
-  // Handle both wrapped { entries: [...] } and plain array formats
-  if (Array.isArray(raw)) return raw;
-  if (raw.entries && Array.isArray(raw.entries)) return raw.entries;
-  return [];
+  const rawEntries = Array.isArray(raw) ? raw : (raw.entries && Array.isArray(raw.entries) ? raw.entries : []);
+  return rawEntries.map(toSearchEntry);
 }
