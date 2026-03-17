@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import dynamic from 'next/dynamic';
 import {
   getAllWards,
   getWardInfo,
@@ -7,10 +8,21 @@ import {
   getWorksForWard,
   getOfficialsForWard,
   getRedFlags,
+  getWardGeoFeature,
+  getWardCenter,
 } from '@/lib/data';
 import { RoadCard } from '@/components/road/RoadCard';
 import { StatCard } from '@/components/common/StatCard';
+import { InfoTooltip } from '@/components/common/InfoTooltip';
+import { WhatThisMeans } from '@/components/common/WhatThisMeans';
+import { CivicActions } from '@/components/common/CivicActions';
+import { BbmpContactCard } from '@/components/common/BbmpContactCard';
 import { formatCurrency } from '@/lib/formatCurrency';
+
+const RoadMap = dynamic(
+  () => import('@/components/map/RoadMap').then((m) => ({ default: m.RoadMap })),
+  { ssr: false, loading: () => <div className="w-full h-96 bg-muted animate-pulse rounded-lg" /> }
+);
 
 interface WardPageProps {
   params: { city: string; zone: string; ward: string };
@@ -52,6 +64,21 @@ export default function WardPage({ params }: WardPageProps) {
     0
   );
 
+  const wardGeo = getWardGeoFeature(ward.wardNumber);
+  const wardCenter = getWardCenter(ward.wardNumber);
+
+  // Build road markers for the map
+  const roadMarkers = roads
+    .filter((r) => r.lat != null && r.lng != null)
+    .map((r) => ({
+      roadId: r.roadId,
+      roadName: r.roadName,
+      lat: r.lat as number,
+      lng: r.lng as number,
+      dlpStatus: r.currentDlpStatus,
+      dlpEnd: r.currentDlpEnd,
+    }));
+
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
@@ -66,12 +93,39 @@ export default function WardPage({ params }: WardPageProps) {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <StatCard title="Total Roads" value={roads.length} />
         <StatCard
-          title="Under Warranty"
+          title={<InfoTooltip glossaryKey="dlp">Under Warranty</InfoTooltip>}
           value={dlp?.summary?.active ?? 0}
         />
         <StatCard title="Total Spending" value={formatCurrency(totalSpending)} />
         <StatCard title="Red Flags" value={wardFlags.length} />
       </div>
+
+      {/* Map */}
+      {roadMarkers.length > 0 && wardCenter && (
+        <div className="mb-8">
+          <h2 className="text-lg font-semibold mb-3">Ward Map</h2>
+          <RoadMap
+            center={wardCenter}
+            zoom={14}
+            roads={roadMarkers}
+            wardBoundary={wardGeo?.geometry}
+          />
+          <div className="flex gap-4 mt-2 text-xs text-muted-foreground">
+            <span className="flex items-center gap-1">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-green-600" /> Under Warranty
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-yellow-600" /> Expiring Soon
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-red-600" /> Expired
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-gray-400" /> Unknown
+            </span>
+          </div>
+        </div>
+      )}
 
       {/* DLP Summary */}
       {dlp && dlp.summary && (
@@ -126,15 +180,22 @@ export default function WardPage({ params }: WardPageProps) {
                 <p className="text-xs text-muted-foreground mt-1">
                   {flag.roadName} | {flag.severity} severity
                 </p>
+                <WhatThisMeans flagType={flag.type} />
               </div>
             ))}
+          </div>
+          <div className="mt-3">
+            <CivicActions
+              wardName={ward.wardName}
+              wardNumber={String(ward.wardNumber)}
+            />
           </div>
         </div>
       )}
 
       {/* Officials */}
       {officials.length > 0 && (
-        <div>
+        <div className="mb-8">
           <h2 className="text-lg font-semibold mb-3">Current Officials</h2>
           <div className="space-y-2">
             {officials.map((official) => (
@@ -144,17 +205,34 @@ export default function WardPage({ params }: WardPageProps) {
               >
                 <p className="text-sm font-medium">{official.designation}</p>
                 {official.currentHolder && (
-                  <p className="text-xs text-muted-foreground mt-0.5">
-                    {official.currentHolder.name}
-                    {official.currentHolder.officialPhone &&
-                      ` | ${official.currentHolder.officialPhone}`}
-                  </p>
+                  <div className="text-xs text-muted-foreground mt-0.5">
+                    <span>{official.currentHolder.name}</span>
+                    {official.currentHolder.officialPhone && (
+                      <span>
+                        {' | '}
+                        <a href={`tel:${official.currentHolder.officialPhone}`} className="text-blue-600 hover:underline">
+                          {official.currentHolder.officialPhone}
+                        </a>
+                      </span>
+                    )}
+                    {official.currentHolder.officialEmail && (
+                      <span>
+                        {' | '}
+                        <a href={`mailto:${official.currentHolder.officialEmail}`} className="text-blue-600 hover:underline">
+                          {official.currentHolder.officialEmail}
+                        </a>
+                      </span>
+                    )}
+                  </div>
                 )}
               </div>
             ))}
           </div>
         </div>
       )}
+
+      {/* BBMP Contact Card */}
+      <BbmpContactCard />
     </div>
   );
 }

@@ -13,9 +13,9 @@
       "contractorName": "M/s ABC Infra Pvt Ltd",
       "details": {
         "previousWork": "150-21-000001",
-        "previousCompletion": "2022-01-10",
+        "previousCompletion": "2022-04-17",
         "newWork": "150-23-000002",
-        "newWoDate": "2023-06-20",
+        "newWoDate": "2023-08-03",
         "gapMonths": 17
       }
     },
@@ -30,10 +30,10 @@
       "contractorName": "M/s Metro Roads & Bridges",
       "details": {
         "jobCode": "150-22-000003",
-        "sanctionedCost": 18000000,
-        "costPerKm": 7200000,
+        "sanctionedCost": 14967288,
+        "costPerKm": 5986915,
         "zoneAvgCostPerKm": 4200000,
-        "deviationPct": 71
+        "deviationPct": 80
       }
     },
     {
@@ -47,8 +47,8 @@
       "contractorName": "M/s Nandi Infrastructure",
       "details": {
         "jobCode": "150-20-000004",
-        "stipulatedCompletion": "2020-09-10",
-        "actualCompletion": "2021-06-20"
+        "stipulatedCompletion": "2021-05-28",
+        "actualCompletion": "2021-12-22"
       }
     },
     {
@@ -62,7 +62,12 @@
       "contractorName": "M/s Lakshmi Civil Works",
       "details": {
         "jobCode": "150-23-000006",
-        "missingFields": ["actualPaid", "actualCompletionDate", "dlpStartDate", "dlpEndDate"]
+        "missingFields": [
+          "actualPaid",
+          "actualCompletionDate",
+          "dlpStartDate",
+          "dlpEndDate"
+        ]
       }
     },
     {
@@ -70,13 +75,13 @@
       "type": "singleBid",
       "severity": "low",
       "description": "Tender received only one bid, reducing competitive pricing",
-      "roadId": "blr-mhd-150-013",
-      "roadName": "6th Main, Dollar Colony, Bellandur",
-      "contractorId": "ctr-007",
-      "contractorName": "M/s Lakshmi Civil Works",
+      "roadId": "blr-mhd-150-011",
+      "roadName": "Sarjapur Road (Bellandur stretch)",
+      "contractorId": "ctr-004",
+      "contractorName": "M/s Nandi Infrastructure",
       "details": {
-        "jobCode": "150-20-000026",
-        "tenderNumber": "MHD/T/2020/168",
+        "jobCode": "150-20-000004",
+        "tenderNumber": "MHD/T/2020/120",
         "bidCount": 1
       }
     },
@@ -91,9 +96,9 @@
       "contractorName": "M/s ABC Infra Pvt Ltd",
       "details": {
         "performanceGrade": "D",
-        "performanceScore": 0.38,
-        "totalWorks": 5,
-        "worksDelayed": 4,
+        "performanceScore": 0.3,
+        "totalWorks": 6,
+        "worksDelayed": 2,
         "dlpViolations": 4
       }
     }

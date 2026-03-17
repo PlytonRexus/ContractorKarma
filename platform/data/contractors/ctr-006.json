@@ -4,17 +4,31 @@
   "registrationNumber": "BBMP/CR/2016/178",
   "registrationClass": "Class I",
   "address": "No. 101, Whitefield Main Road, Bengaluru",
+  "phone": "+91 80 4000 0006",
+  "email": "info@metroroads&bridges.co.in",
   "stats": {
-    "totalWorks": 8,
-    "totalSanctionedValue": 30680000,
-    "worksCompletedOnTime": 5,
-    "worksDelayed": 2,
-    "dlpViolations": 3,
-    "avgCostPerKm": 4500000,
-    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-    "performanceGrade": "C",
-    "performanceScore": 0.56
+    "totalWorks": 7,
+    "totalSanctionedValue": 27864947,
+    "worksCompletedOnTime": 2,
+    "worksDelayed": 1,
+    "dlpViolations": 5,
+    "avgCostPerKm": 4605776,
+    "wardsActive": [
+      "168-jayanagar",
+      "176-btm-layout",
+      "150-bellandur"
+    ],
+    "performanceGrade": "D",
+    "performanceScore": 0.46
   },
   "blacklisted": false,
-  "works": ["150-22-000003", "150-20-000010", "150-22-000025", "150-22-000034", "150-24-000040", "150-22-000047", "168-21-000003", "176-23-000002"]
+  "works": [
+    "150-22-000003",
+    "150-20-000010",
+    "150-20-000027",
+    "150-24-000040",
+    "150-22-000047",
+    "168-24-000003",
+    "176-20-000002"
+  ]
 }

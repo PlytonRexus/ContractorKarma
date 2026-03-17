@@ -21,6 +21,8 @@ export interface Contractor {
   registrationClass: RegistrationClass;
   address: string | null;
   stats: ContractorStats;
+  phone: string | null;
+  email: string | null;
   blacklisted: boolean;
   works: string[];
 }

@@ -92,8 +92,18 @@ function copyDownloadableData() {
   console.log(`Copied ${count} downloadable data files to public/data/`);
 }
 
+function copyGeoJson() {
+  const geoSrc = path.join(DATA_DIR, 'geo', 'bengaluru-wards.geojson');
+  if (fs.existsSync(geoSrc)) {
+    const geoDest = path.join(PUBLIC_DATA_DIR, 'geo', 'bengaluru-wards.geojson');
+    copyFile(geoSrc, geoDest);
+    console.log('Copied GeoJSON to public/data/geo/');
+  }
+}
+
 ensureDir(PUBLIC_API_DIR);
 generateSearchIndex();
 generateDlpAll();
 copyDownloadableData();
+copyGeoJson();
 console.log('API data generation complete.');

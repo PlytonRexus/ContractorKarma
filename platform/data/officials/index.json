@@ -5,9 +5,11 @@
     "designation": "AE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0001",
+    "email": "ramesh.k@bbmp.gov.in",
     "activeSince": "2019-04-01"
   },
   {
@@ -16,9 +18,11 @@
     "designation": "AEE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0002",
+    "email": "suresh.m@bbmp.gov.in",
     "activeSince": "2018-06-15"
   },
   {
@@ -27,9 +31,11 @@
     "designation": "EE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0003",
+    "email": "vijay.n@bbmp.gov.in",
     "activeSince": "2017-01-10"
   },
   {
@@ -38,9 +44,11 @@
     "designation": "AE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0004",
+    "email": "priya.s@bbmp.gov.in",
     "activeSince": "2021-08-20"
   },
   {
@@ -49,9 +57,11 @@
     "designation": "JE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0005",
+    "email": "anand.r@bbmp.gov.in",
     "activeSince": "2022-03-01"
   },
   {
@@ -60,9 +70,11 @@
     "designation": "SE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0006",
+    "email": "meena.t@bbmp.gov.in",
     "activeSince": "2015-11-01"
   },
   {
@@ -71,9 +83,11 @@
     "designation": "AE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [168],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      168
+    ],
+    "phone": "+91 80 2266 0007",
+    "email": "karthik.v@bbmp.gov.in",
     "activeSince": "2020-01-15"
   },
   {
@@ -82,9 +96,11 @@
     "designation": "AEE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [168],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      168
+    ],
+    "phone": "+91 80 2266 0008",
+    "email": "lakshmi.d@bbmp.gov.in",
     "activeSince": "2019-07-01"
   },
   {
@@ -93,9 +109,12 @@
     "designation": "EE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [168, 176],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      168,
+      176
+    ],
+    "phone": "+91 80 2266 0009",
+    "email": "harish.b@bbmp.gov.in",
     "activeSince": "2016-05-20"
   },
   {
@@ -104,9 +123,11 @@
     "designation": "AE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      176
+    ],
+    "phone": "+91 80 2266 0010",
+    "email": "divya.p@bbmp.gov.in",
     "activeSince": "2021-02-10"
   },
   {
@@ -115,9 +136,11 @@
     "designation": "AEE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      176
+    ],
+    "phone": "+91 80 2266 0011",
+    "email": "mohan.g@bbmp.gov.in",
     "activeSince": "2018-09-01"
   },
   {
@@ -126,9 +149,11 @@
     "designation": "JE",
     "department": "BBMP Engineering",
     "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      150
+    ],
+    "phone": "+91 80 2266 0012",
+    "email": "shantha.r@bbmp.gov.in",
     "activeSince": "2023-01-05"
   },
   {
@@ -137,9 +162,11 @@
     "designation": "JE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [168],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      168
+    ],
+    "phone": "+91 80 2266 0013",
+    "email": "naveen.j@bbmp.gov.in",
     "activeSince": "2022-11-15"
   },
   {
@@ -148,9 +175,12 @@
     "designation": "SE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [168, 176],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      168,
+      176
+    ],
+    "phone": "+91 80 2266 0014",
+    "email": "rekha.h@bbmp.gov.in",
     "activeSince": "2014-08-01"
   },
   {
@@ -159,9 +189,11 @@
     "designation": "JE",
     "department": "BBMP Engineering",
     "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
+    "wardNumbers": [
+      176
+    ],
+    "phone": "+91 80 2266 0015",
+    "email": "ganesh.l@bbmp.gov.in",
     "activeSince": "2023-06-01"
   }
 ]

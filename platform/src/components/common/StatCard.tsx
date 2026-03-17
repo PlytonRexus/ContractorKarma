@@ -1,5 +1,5 @@
 interface StatCardProps {
-  title: string;
+  title: React.ReactNode;
   value: string | number;
   subtitle?: string;
   icon?: React.ReactNode;

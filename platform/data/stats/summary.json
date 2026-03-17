@@ -4,22 +4,22 @@
   "totalZones": 2,
   "totalWards": 3,
   "totalRoads": 35,
-  "totalWorks": 72,
+  "totalWorks": 66,
   "totalContractors": 8,
   "totalOfficials": 15,
   "financials": {
-    "totalSanctionedCost": 347570000,
-    "totalActualPaid": 337060000,
-    "avgCostPerWork": 4827361
+    "totalSanctionedCost": 319946062,
+    "totalActualPaid": 302603284,
+    "avgCostPerWork": 4847668
   },
   "dlp": {
-    "active": 36,
-    "expiringSoon": 5,
-    "expired": 30
+    "active": 38,
+    "expiringSoon": 2,
+    "expired": 25
   },
   "performance": {
-    "worksDelayed": 18,
-    "delayPercentage": 25.0,
+    "worksDelayed": 13,
+    "delayPercentage": 19.7,
     "redFlagsTotal": 6
   }
 }

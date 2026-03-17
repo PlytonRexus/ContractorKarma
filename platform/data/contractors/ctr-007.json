@@ -4,17 +4,31 @@
   "registrationNumber": "BBMP/CR/2022/511",
   "registrationClass": "Class III",
   "address": "No. 3, Bannerghatta Road, Bengaluru",
+  "phone": "+91 80 4000 0007",
+  "email": "info@lakshmicivilworks.co.in",
   "stats": {
     "totalWorks": 7,
-    "totalSanctionedValue": 10300000,
-    "worksCompletedOnTime": 5,
-    "worksDelayed": 1,
+    "totalSanctionedValue": 8819111,
+    "worksCompletedOnTime": 2,
+    "worksDelayed": 2,
     "dlpViolations": 2,
-    "avgCostPerKm": 3500000,
-    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-    "performanceGrade": "B",
-    "performanceScore": 0.72
+    "avgCostPerKm": 3206949,
+    "wardsActive": [
+      "168-jayanagar",
+      "176-btm-layout",
+      "150-bellandur"
+    ],
+    "performanceGrade": "D",
+    "performanceScore": 0.5
   },
   "blacklisted": false,
-  "works": ["150-23-000006", "150-18-000014", "150-20-000026", "150-23-000031", "150-23-000039", "150-24-000046", "168-24-000004", "176-22-000003"]
+  "works": [
+    "150-23-000006",
+    "150-18-000014",
+    "150-19-000028",
+    "150-23-000039",
+    "150-24-000046",
+    "168-24-000004",
+    "176-23-000003"
+  ]
 }

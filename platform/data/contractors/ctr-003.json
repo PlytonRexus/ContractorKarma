@@ -4,17 +4,29 @@
   "registrationNumber": "BBMP/CR/2020/312",
   "registrationClass": "Class II",
   "address": "No. 7, Vijayanagar, Bengaluru",
+  "phone": "+91 80 4000 0003",
+  "email": "info@kaveriroadbuilders.co.in",
   "stats": {
-    "totalWorks": 8,
-    "totalSanctionedValue": 30120000,
-    "worksCompletedOnTime": 5,
-    "worksDelayed": 2,
-    "dlpViolations": 3,
-    "avgCostPerKm": 4000000,
-    "wardsActive": ["150-bellandur"],
-    "performanceGrade": "C",
-    "performanceScore": 0.58
+    "totalWorks": 7,
+    "totalSanctionedValue": 19517861,
+    "worksCompletedOnTime": 1,
+    "worksDelayed": 1,
+    "dlpViolations": 2,
+    "avgCostPerKm": 3880290,
+    "wardsActive": [
+      "150-bellandur"
+    ],
+    "performanceGrade": "D",
+    "performanceScore": 0.47
   },
   "blacklisted": false,
-  "works": ["150-19-000012", "150-23-000013", "150-21-000033", "150-23-000035", "150-20-000029", "150-20-000042", "150-24-000050", "150-19-000055"]
+  "works": [
+    "150-19-000012",
+    "150-23-000013",
+    "150-24-000024",
+    "150-25-000032",
+    "150-23-000035",
+    "150-20-000042",
+    "150-24-000050"
+  ]
 }

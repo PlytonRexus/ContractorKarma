@@ -1,5 +1,7 @@
+import Link from 'next/link';
 import { getRtiApplications } from '@/lib/data';
 import { formatDate } from '@/lib/formatDate';
+import { rtiGuidance } from '@/lib/bbmpContacts';
 
 export const metadata = {
   title: 'RTI Library - Contractor Karma',
@@ -61,6 +63,36 @@ export default function RtiLibraryPage() {
           <p className="text-2xl font-bold text-yellow-600">
             {applications.filter((a: any) => a.status === 'appeal').length}
           </p>
+        </div>
+      </div>
+
+      {/* Generate Your Own RTI */}
+      <div className="border-2 border-dashed border-blue-300 rounded-lg p-4 mb-8 bg-blue-50/50">
+        <h2 className="text-sm font-semibold mb-1">Generate Your Own RTI Application</h2>
+        <p className="text-xs text-muted-foreground mb-3">
+          Use our RTI template generator to create a pre-filled Right to Information application
+          based on road work data. Choose a specific road, contractor, or issue type to get a
+          contextual letter you can file online or by post.
+        </p>
+        <div className="flex flex-wrap gap-3 items-center">
+          <Link
+            href="/rti-library/generate/"
+            className="inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg hover:bg-accent transition-colors"
+          >
+            Generate RTI Application
+          </Link>
+          <div className="text-xs text-muted-foreground">
+            <span className="font-medium">Filing fee:</span> {rtiGuidance.fee} |{' '}
+            <span className="font-medium">Response time:</span> {rtiGuidance.timeLimits.responseDeadline} |{' '}
+            <a
+              href={rtiGuidance.portalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              File online
+            </a>
+          </div>
         </div>
       </div>
 

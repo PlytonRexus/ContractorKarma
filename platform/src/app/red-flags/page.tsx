@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { getRedFlags } from '@/lib/data';
+import { WhatThisMeans } from '@/components/common/WhatThisMeans';
+import { CivicActions } from '@/components/common/CivicActions';
 
 export const metadata = {
   title: 'Red Flags - Contractor Karma',
@@ -107,9 +109,20 @@ export default function RedFlagsPage() {
                     ))}
                   </div>
                 )}
+                <WhatThisMeans flagType={flag.type} />
               </div>
             ))}
           </div>
+          {typeFlags.some((f) => f.severity === 'high') && (
+            <div className="mt-3">
+              <CivicActions
+                flagType={type}
+                roadName={typeFlags[0].roadName || undefined}
+                roadId={typeFlags[0].roadId || undefined}
+                contractorName={typeFlags[0].contractorName || undefined}
+              />
+            </div>
+          )}
         </div>
       ))}
 

@@ -106,50 +106,64 @@ CONTRACTORS_DEF = [
 OFFICIALS_ALL = [
     {"officialId": "off-001", "name": "Ramesh K", "designation": "AE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2019-04-01"},
+     "phone": "+91 80 2266 0001", "email": "ramesh.k@bbmp.gov.in", "activeSince": "2019-04-01"},
     {"officialId": "off-002", "name": "Suresh M", "designation": "AEE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2018-06-15"},
+     "phone": "+91 80 2266 0002", "email": "suresh.m@bbmp.gov.in", "activeSince": "2018-06-15"},
     {"officialId": "off-003", "name": "Vijay N", "designation": "EE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2017-01-10"},
+     "phone": "+91 80 2266 0003", "email": "vijay.n@bbmp.gov.in", "activeSince": "2017-01-10"},
     {"officialId": "off-004", "name": "Priya S", "designation": "AE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2021-08-20"},
+     "phone": "+91 80 2266 0004", "email": "priya.s@bbmp.gov.in", "activeSince": "2021-08-20"},
     {"officialId": "off-005", "name": "Anand R", "designation": "JE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2022-03-01"},
+     "phone": "+91 80 2266 0005", "email": "anand.r@bbmp.gov.in", "activeSince": "2022-03-01"},
     {"officialId": "off-006", "name": "Meena T", "designation": "SE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2015-11-01"},
+     "phone": "+91 80 2266 0006", "email": "meena.t@bbmp.gov.in", "activeSince": "2015-11-01"},
     {"officialId": "off-007", "name": "Karthik V", "designation": "AE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [168],
-     "phone": None, "email": None, "activeSince": "2020-01-15"},
+     "phone": "+91 80 2266 0007", "email": "karthik.v@bbmp.gov.in", "activeSince": "2020-01-15"},
     {"officialId": "off-008", "name": "Lakshmi D", "designation": "AEE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [168],
-     "phone": None, "email": None, "activeSince": "2019-07-01"},
+     "phone": "+91 80 2266 0008", "email": "lakshmi.d@bbmp.gov.in", "activeSince": "2019-07-01"},
     {"officialId": "off-009", "name": "Harish B", "designation": "EE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [168, 176],
-     "phone": None, "email": None, "activeSince": "2016-05-20"},
+     "phone": "+91 80 2266 0009", "email": "harish.b@bbmp.gov.in", "activeSince": "2016-05-20"},
     {"officialId": "off-010", "name": "Divya P", "designation": "AE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [176],
-     "phone": None, "email": None, "activeSince": "2021-02-10"},
+     "phone": "+91 80 2266 0010", "email": "divya.p@bbmp.gov.in", "activeSince": "2021-02-10"},
     {"officialId": "off-011", "name": "Mohan G", "designation": "AEE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [176],
-     "phone": None, "email": None, "activeSince": "2018-09-01"},
+     "phone": "+91 80 2266 0011", "email": "mohan.g@bbmp.gov.in", "activeSince": "2018-09-01"},
     {"officialId": "off-012", "name": "Shantha R", "designation": "JE",
      "department": "BBMP Engineering", "zone": "Mahadevapura", "wardNumbers": [150],
-     "phone": None, "email": None, "activeSince": "2023-01-05"},
+     "phone": "+91 80 2266 0012", "email": "shantha.r@bbmp.gov.in", "activeSince": "2023-01-05"},
     {"officialId": "off-013", "name": "Naveen J", "designation": "JE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [168],
-     "phone": None, "email": None, "activeSince": "2022-11-15"},
+     "phone": "+91 80 2266 0013", "email": "naveen.j@bbmp.gov.in", "activeSince": "2022-11-15"},
     {"officialId": "off-014", "name": "Rekha H", "designation": "SE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [168, 176],
-     "phone": None, "email": None, "activeSince": "2014-08-01"},
+     "phone": "+91 80 2266 0014", "email": "rekha.h@bbmp.gov.in", "activeSince": "2014-08-01"},
     {"officialId": "off-015", "name": "Ganesh L", "designation": "JE",
      "department": "BBMP Engineering", "zone": "South", "wardNumbers": [176],
-     "phone": None, "email": None, "activeSince": "2023-06-01"},
+     "phone": "+91 80 2266 0015", "email": "ganesh.l@bbmp.gov.in", "activeSince": "2023-06-01"},
 ]
+
+# Ward center coordinates for generating road lat/lng
+WARD_CENTERS = {
+    150: (12.94, 77.665),     # Bellandur
+    168: (12.93, 77.585),     # Jayanagar
+    176: (12.9175, 77.6125),  # BTM Layout
+}
+
+# Bounding boxes for distributing road points (lat_min, lat_max, lng_min, lng_max)
+WARD_BOUNDS = {
+    150: (12.925, 12.955, 77.650, 77.680),
+    168: (12.920, 12.940, 77.575, 77.595),
+    176: (12.905, 12.930, 77.600, 77.625),
+}
 
 WORK_TYPES = ["asphalting", "concretePaving", "whitetopping", "potholeFilling",
               "drainRepair", "footpathConstruction", "resurfacing"]
@@ -214,8 +228,28 @@ def costPerKm(sanctioned, lengthKm):
 
 
 def makeOfficials(wardNumber, zone):
-    """Return officials for a ward."""
-    return [o for o in OFFICIALS_ALL if wardNumber in o["wardNumbers"]]
+    """Return officials for a ward in the nested Official type format."""
+    result = []
+    for o in OFFICIALS_ALL:
+        if wardNumber not in o["wardNumbers"]:
+            continue
+        result.append({
+            "officialId": o["officialId"],
+            "designation": f"{o['designation']}, {o['department']}",
+            "currentHolder": {
+                "name": o["name"],
+                "officialPhone": o["phone"],
+                "officialEmail": o["email"],
+                "verifiedDate": formatDate(TODAY),
+            },
+            "history": [{
+                "name": o["name"],
+                "tenureStart": o["activeSince"],
+                "tenureEnd": None,
+            }],
+            "jurisdiction": f"Ward {wardNumber}, {zone} Zone",
+        })
+    return result
 
 
 def certifyingTeam(wardNumber, zone):
@@ -373,10 +407,20 @@ class WorkGenerator:
 # ---------------------------------------------------------------------------
 
 def buildRoads(roadDefs, zoneId, wardSlug):
-    """Convert road definitions into road objects."""
+    """Convert road definitions into road objects with lat/lng coordinates."""
+    wardNumber = int(wardSlug.split("-")[0])
+    bounds = WARD_BOUNDS.get(wardNumber)
     roads = []
     for i, (name, aliases, cls, surface, length, width) in enumerate(roadDefs):
         roadId = f"{zoneId}-{wardSlug.split('-')[0]}-{i + 1:03d}"
+        # Distribute points within the ward bounding box
+        if bounds:
+            latMin, latMax, lngMin, lngMax = bounds
+            lat = round(latMin + (latMax - latMin) * ((i * 7 + 3) % len(roadDefs)) / len(roadDefs), 6)
+            lng = round(lngMin + (lngMax - lngMin) * ((i * 11 + 5) % len(roadDefs)) / len(roadDefs), 6)
+        else:
+            lat = None
+            lng = None
         roads.append({
             "roadId": roadId,
             "roadName": name,
@@ -391,6 +435,8 @@ def buildRoads(roadDefs, zoneId, wardSlug):
             "currentContractor": None,   # filled later
             "totalWorksCount": 0,        # filled later
             "totalSpending": 0,          # filled later
+            "lat": lat,
+            "lng": lng,
             "lastUpdated": formatDate(TODAY),
         })
     return roads
@@ -645,12 +691,19 @@ def generate():
             if w["contractorId"] == cid
         ))) if cWorks else 0
 
+        # Seed phone and email for each contractor
+        ctrPhone = f"+91 80 4000 {int(cid.split('-')[1]):04d}"
+        ctrEmail = cDef[1].lower().replace("m/s ", "").replace(" ", "").replace(".", "")
+        ctrEmail = f"info@{ctrEmail[:20]}.co.in"
+
         contractors.append({
             "contractorId": cid,
             "legalName": cDef[1],
             "registrationNumber": cDef[2],
             "registrationClass": cDef[3],
             "address": cDef[4],
+            "phone": ctrPhone,
+            "email": ctrEmail,
             "stats": {
                 "totalWorks": totalW,
                 "totalSanctionedValue": totalSanctioned,

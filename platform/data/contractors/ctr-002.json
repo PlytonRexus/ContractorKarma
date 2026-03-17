@@ -4,17 +4,28 @@
   "registrationNumber": "BBMP/CR/2018/203",
   "registrationClass": "Class I",
   "address": "No. 18, Rajajinagar Industrial Estate, Bengaluru",
+  "phone": "+91 80 4000 0002",
+  "email": "info@abcinfrapvtltd.co.in",
   "stats": {
-    "totalWorks": 5,
-    "totalSanctionedValue": 27360000,
-    "worksCompletedOnTime": 1,
-    "worksDelayed": 4,
+    "totalWorks": 6,
+    "totalSanctionedValue": 29602177,
+    "worksCompletedOnTime": 0,
+    "worksDelayed": 2,
     "dlpViolations": 4,
-    "avgCostPerKm": 5200000,
-    "wardsActive": ["150-bellandur"],
+    "avgCostPerKm": 5000368,
+    "wardsActive": [
+      "150-bellandur"
+    ],
     "performanceGrade": "D",
-    "performanceScore": 0.38
+    "performanceScore": 0.3
   },
   "blacklisted": false,
-  "works": ["150-21-000001", "150-23-000002", "150-22-000019", "150-21-000009", "150-22-000023", "150-23-000058"]
+  "works": [
+    "150-21-000001",
+    "150-23-000002",
+    "150-21-000009",
+    "150-22-000019",
+    "150-21-000023",
+    "150-24-000031"
+  ]
 }

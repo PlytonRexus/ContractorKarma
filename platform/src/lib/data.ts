@@ -265,6 +265,50 @@ export function getWorksForRoad(roadId: string): Work[] {
   return [];
 }
 
+// GeoJSON helpers
+
+export interface GeoFeature {
+  type: string;
+  properties: {
+    wardNumber: number;
+    wardName: string;
+    wardSlug: string;
+    zone: string;
+  };
+  geometry: {
+    type: string;
+    coordinates: number[][][];
+  };
+}
+
+export interface GeoFeatureCollection {
+  type: string;
+  features: GeoFeature[];
+}
+
+export function getWardGeoFeatures(): GeoFeature[] {
+  const raw = readJson<GeoFeatureCollection>('geo/bengaluru-wards.geojson');
+  if (!raw || !raw.features) return [];
+  return raw.features;
+}
+
+export function getWardGeoFeature(wardNumber: number): GeoFeature | null {
+  const features = getWardGeoFeatures();
+  return features.find((f) => f.properties.wardNumber === wardNumber) || null;
+}
+
+export function getWardCenter(wardNumber: number): [number, number] | null {
+  const feature = getWardGeoFeature(wardNumber);
+  if (!feature || !feature.geometry || !feature.geometry.coordinates) return null;
+  const coords = feature.geometry.coordinates[0];
+  if (!coords || coords.length === 0) return null;
+  // Compute centroid from polygon coordinates (excluding closing point)
+  const ring = coords.slice(0, -1);
+  const sumLng = ring.reduce((s, c) => s + c[0], 0);
+  const sumLat = ring.reduce((s, c) => s + c[1], 0);
+  return [sumLat / ring.length, sumLng / ring.length];
+}
+
 // Search index
 export interface SearchEntry {
   type: 'road' | 'contractor' | 'work';

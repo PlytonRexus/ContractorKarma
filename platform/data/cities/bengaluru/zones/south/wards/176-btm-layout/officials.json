@@ -1,57 +1,92 @@
 [
   {
     "officialId": "off-009",
-    "name": "Harish B",
-    "designation": "EE",
-    "department": "BBMP Engineering",
-    "zone": "South",
-    "wardNumbers": [168, 176],
-    "phone": null,
-    "email": null,
-    "activeSince": "2016-05-20"
+    "designation": "EE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Harish B",
+      "officialPhone": "+91 80 2266 0009",
+      "officialEmail": "harish.b@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Harish B",
+        "tenureStart": "2016-05-20",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 176, South Zone"
   },
   {
     "officialId": "off-010",
-    "name": "Divya P",
-    "designation": "AE",
-    "department": "BBMP Engineering",
-    "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
-    "activeSince": "2021-02-10"
+    "designation": "AE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Divya P",
+      "officialPhone": "+91 80 2266 0010",
+      "officialEmail": "divya.p@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Divya P",
+        "tenureStart": "2021-02-10",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 176, South Zone"
   },
   {
     "officialId": "off-011",
-    "name": "Mohan G",
-    "designation": "AEE",
-    "department": "BBMP Engineering",
-    "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
-    "activeSince": "2018-09-01"
+    "designation": "AEE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Mohan G",
+      "officialPhone": "+91 80 2266 0011",
+      "officialEmail": "mohan.g@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Mohan G",
+        "tenureStart": "2018-09-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 176, South Zone"
   },
   {
     "officialId": "off-014",
-    "name": "Rekha H",
-    "designation": "SE",
-    "department": "BBMP Engineering",
-    "zone": "South",
-    "wardNumbers": [168, 176],
-    "phone": null,
-    "email": null,
-    "activeSince": "2014-08-01"
+    "designation": "SE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Rekha H",
+      "officialPhone": "+91 80 2266 0014",
+      "officialEmail": "rekha.h@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Rekha H",
+        "tenureStart": "2014-08-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 176, South Zone"
   },
   {
     "officialId": "off-015",
-    "name": "Ganesh L",
-    "designation": "JE",
-    "department": "BBMP Engineering",
-    "zone": "South",
-    "wardNumbers": [176],
-    "phone": null,
-    "email": null,
-    "activeSince": "2023-06-01"
+    "designation": "JE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Ganesh L",
+      "officialPhone": "+91 80 2266 0015",
+      "officialEmail": "ganesh.l@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Ganesh L",
+        "tenureStart": "2023-06-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 176, South Zone"
   }
 ]

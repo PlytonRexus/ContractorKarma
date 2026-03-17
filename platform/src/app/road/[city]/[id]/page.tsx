@@ -1,9 +1,18 @@
 import { notFound } from 'next/navigation';
-import { getAllRoads, getRoadById, getWorksForRoad } from '@/lib/data';
+import dynamic from 'next/dynamic';
+import { getAllRoads, getRoadById, getWorksForRoad, getRedFlags } from '@/lib/data';
 import { DlpBadge } from '@/components/road/DlpBadge';
 import { WorkTimeline } from '@/components/road/WorkTimeline';
 import { ShareButton } from '@/components/common/ShareButton';
+import { InfoTooltip } from '@/components/common/InfoTooltip';
+import { WhatThisMeans } from '@/components/common/WhatThisMeans';
+import { CivicActions } from '@/components/common/CivicActions';
 import { formatCurrency } from '@/lib/formatCurrency';
+
+const RoadMap = dynamic(
+  () => import('@/components/map/RoadMap').then((m) => ({ default: m.RoadMap })),
+  { ssr: false, loading: () => <div className="w-full h-64 bg-muted animate-pulse rounded-lg" /> }
+);
 
 interface RoadPageProps {
   params: { city: string; id: string };
@@ -34,6 +43,8 @@ export default function RoadPage({ params }: RoadPageProps) {
   if (!road) return notFound();
 
   const works = getWorksForRoad(road.roadId);
+  const allFlags = getRedFlags();
+  const roadFlags = allFlags.filter((f) => f.roadId === road.roadId);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -62,6 +73,26 @@ export default function RoadPage({ params }: RoadPageProps) {
         </div>
       </div>
 
+      {/* Map */}
+      {road.lat != null && road.lng != null && (
+        <div className="mb-8">
+          <RoadMap
+            center={[road.lat, road.lng]}
+            zoom={16}
+            className="w-full h-64"
+            roads={[{
+              roadId: road.roadId,
+              roadName: road.roadName,
+              lat: road.lat,
+              lng: road.lng,
+              dlpStatus: road.currentDlpStatus,
+              dlpEnd: road.currentDlpEnd,
+            }]}
+            highlightRoadId={road.roadId}
+          />
+        </div>
+      )}
+
       {/* Summary Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <div className="border rounded-lg p-3">
@@ -69,7 +100,9 @@ export default function RoadPage({ params }: RoadPageProps) {
           <p className="text-lg font-bold">{road.totalWorksCount}</p>
         </div>
         <div className="border rounded-lg p-3">
-          <p className="text-xs text-muted-foreground">Total Spending</p>
+          <p className="text-xs text-muted-foreground">
+            <InfoTooltip glossaryKey="sanctionedCost">Total Spending</InfoTooltip>
+          </p>
           <p className="text-lg font-bold">
             {formatCurrency(road.totalSpending)}
           </p>
@@ -93,6 +126,37 @@ export default function RoadPage({ params }: RoadPageProps) {
           dlpStatus={road.currentDlpStatus}
           contractorName={road.currentContractor}
           dlpEndDate={road.currentDlpEnd}
+        />
+      </div>
+
+      {/* Red Flags for this road */}
+      {roadFlags.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-lg font-semibold mb-3">Red Flags</h2>
+          <div className="space-y-2">
+            {roadFlags.map((flag) => (
+              <div
+                key={flag.flagId}
+                className="border rounded-lg px-4 py-3 border-l-4 border-l-red-400"
+              >
+                <p className="text-sm font-medium">{flag.description}</p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  {flag.severity} severity
+                </p>
+                <WhatThisMeans flagType={flag.type} />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Civic Actions */}
+      <div className="mb-8">
+        <CivicActions
+          roadName={road.roadName}
+          roadId={road.roadId}
+          contractorName={road.currentContractor || undefined}
+          flagType={roadFlags[0]?.type}
         />
       </div>
 

@@ -1,79 +1,128 @@
 [
   {
     "officialId": "off-001",
-    "name": "Ramesh K",
-    "designation": "AE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2019-04-01"
+    "designation": "AE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Ramesh K",
+      "officialPhone": "+91 80 2266 0001",
+      "officialEmail": "ramesh.k@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Ramesh K",
+        "tenureStart": "2019-04-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-002",
-    "name": "Suresh M",
-    "designation": "AEE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2018-06-15"
+    "designation": "AEE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Suresh M",
+      "officialPhone": "+91 80 2266 0002",
+      "officialEmail": "suresh.m@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Suresh M",
+        "tenureStart": "2018-06-15",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-003",
-    "name": "Vijay N",
-    "designation": "EE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2017-01-10"
+    "designation": "EE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Vijay N",
+      "officialPhone": "+91 80 2266 0003",
+      "officialEmail": "vijay.n@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Vijay N",
+        "tenureStart": "2017-01-10",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-004",
-    "name": "Priya S",
-    "designation": "AE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2021-08-20"
+    "designation": "AE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Priya S",
+      "officialPhone": "+91 80 2266 0004",
+      "officialEmail": "priya.s@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Priya S",
+        "tenureStart": "2021-08-20",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-005",
-    "name": "Anand R",
-    "designation": "JE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2022-03-01"
+    "designation": "JE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Anand R",
+      "officialPhone": "+91 80 2266 0005",
+      "officialEmail": "anand.r@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Anand R",
+        "tenureStart": "2022-03-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-006",
-    "name": "Meena T",
-    "designation": "SE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2015-11-01"
+    "designation": "SE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Meena T",
+      "officialPhone": "+91 80 2266 0006",
+      "officialEmail": "meena.t@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Meena T",
+        "tenureStart": "2015-11-01",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   },
   {
     "officialId": "off-012",
-    "name": "Shantha R",
-    "designation": "JE",
-    "department": "BBMP Engineering",
-    "zone": "Mahadevapura",
-    "wardNumbers": [150],
-    "phone": null,
-    "email": null,
-    "activeSince": "2023-01-05"
+    "designation": "JE, BBMP Engineering",
+    "currentHolder": {
+      "name": "Shantha R",
+      "officialPhone": "+91 80 2266 0012",
+      "officialEmail": "shantha.r@bbmp.gov.in",
+      "verifiedDate": "2026-03-17"
+    },
+    "history": [
+      {
+        "name": "Shantha R",
+        "tenureStart": "2023-01-05",
+        "tenureEnd": null
+      }
+    ],
+    "jurisdiction": "Ward 150, Mahadevapura Zone"
   }
 ]

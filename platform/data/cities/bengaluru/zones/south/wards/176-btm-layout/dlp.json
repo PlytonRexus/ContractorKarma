@@ -3,66 +3,66 @@
   "generatedAt": "2026-03-17",
   "summary": {
     "totalWorks": 6,
-    "active": 2,
-    "expiringSoon": 1,
-    "expired": 3,
+    "active": 5,
+    "expiringSoon": 0,
+    "expired": 1,
     "unknown": 0
   },
   "items": [
     {
-      "jobCode": "176-21-000001",
+      "jobCode": "176-23-000001",
       "roadId": "blr-sth-176-001",
       "roadName": "16th Main, BTM 2nd Stage",
       "contractorId": "ctr-005",
       "contractorName": "M/s South City Engineers",
-      "dlpStartDate": "2022-06-20",
-      "dlpEndDate": "2025-06-20",
-      "dlpDurationYears": 3,
-      "dlpStatus": "expired"
-    },
-    {
-      "jobCode": "176-23-000002",
-      "roadId": "blr-sth-176-002",
-      "roadName": "1st Cross, BTM 1st Stage",
-      "contractorId": "ctr-006",
-      "contractorName": "M/s Metro Roads & Bridges",
-      "dlpStartDate": "2024-03-15",
-      "dlpEndDate": "2027-03-15",
+      "dlpStartDate": "2023-12-27",
+      "dlpEndDate": "2026-12-26",
       "dlpDurationYears": 3,
       "dlpStatus": "active"
     },
     {
-      "jobCode": "176-22-000003",
+      "jobCode": "176-20-000002",
+      "roadId": "blr-sth-176-002",
+      "roadName": "1st Cross, BTM 1st Stage",
+      "contractorId": "ctr-006",
+      "contractorName": "M/s Metro Roads & Bridges",
+      "dlpStartDate": "2020-08-05",
+      "dlpEndDate": "2023-08-05",
+      "dlpDurationYears": 3,
+      "dlpStatus": "expired"
+    },
+    {
+      "jobCode": "176-23-000003",
       "roadId": "blr-sth-176-003",
       "roadName": "Udupi Garden Road, BTM Layout",
       "contractorId": "ctr-007",
       "contractorName": "M/s Lakshmi Civil Works",
-      "dlpStartDate": "2022-09-10",
-      "dlpEndDate": "2025-09-10",
+      "dlpStartDate": "2024-03-29",
+      "dlpEndDate": "2027-03-29",
       "dlpDurationYears": 3,
-      "dlpStatus": "expiringSoon"
+      "dlpStatus": "active"
     },
     {
-      "jobCode": "176-20-000004",
+      "jobCode": "176-22-000004",
       "roadId": "blr-sth-176-004",
       "roadName": "Tavarekere Main Road",
       "contractorId": "ctr-008",
       "contractorName": "M/s Deccan Roadways",
-      "dlpStartDate": "2020-11-10",
-      "dlpEndDate": "2025-11-10",
+      "dlpStartDate": "2022-12-15",
+      "dlpEndDate": "2027-12-14",
       "dlpDurationYears": 5,
-      "dlpStatus": "expired"
+      "dlpStatus": "active"
     },
     {
-      "jobCode": "176-22-000005",
+      "jobCode": "176-23-000005",
       "roadId": "blr-sth-176-005",
       "roadName": "14th Cross, BTM 2nd Stage",
       "contractorId": "ctr-005",
       "contractorName": "M/s South City Engineers",
-      "dlpStartDate": "2022-05-15",
-      "dlpEndDate": "2025-05-15",
+      "dlpStartDate": "2024-01-24",
+      "dlpEndDate": "2027-01-23",
       "dlpDurationYears": 3,
-      "dlpStatus": "expired"
+      "dlpStatus": "active"
     },
     {
       "jobCode": "176-24-000006",
@@ -70,8 +70,8 @@
       "roadName": "Tavarekere Main Road",
       "contractorId": "ctr-008",
       "contractorName": "M/s Deccan Roadways",
-      "dlpStartDate": "2024-11-20",
-      "dlpEndDate": "2029-11-20",
+      "dlpStartDate": "2024-12-17",
+      "dlpEndDate": "2029-12-16",
       "dlpDurationYears": 5,
       "dlpStatus": "active"
     }

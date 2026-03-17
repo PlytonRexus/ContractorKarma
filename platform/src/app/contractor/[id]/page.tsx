@@ -6,6 +6,7 @@ import {
   getAllRoads,
 } from '@/lib/data';
 import { PerformanceGrade } from '@/components/contractor/PerformanceGrade';
+import { InfoTooltip } from '@/components/common/InfoTooltip';
 import { formatCurrency } from '@/lib/formatCurrency';
 
 interface ContractorPageProps {
@@ -83,7 +84,9 @@ export default function ContractorPage({ params }: ContractorPageProps) {
           </p>
         </div>
         <div className="border rounded-lg p-4">
-          <p className="text-xs text-muted-foreground">DLP Violations</p>
+          <p className="text-xs text-muted-foreground">
+            <InfoTooltip glossaryKey="dlp">DLP Violations</InfoTooltip>
+          </p>
           <p className="text-2xl font-bold">{stats.dlpViolations}</p>
         </div>
         <div className="border rounded-lg p-4">
@@ -101,7 +104,9 @@ export default function ContractorPage({ params }: ContractorPageProps) {
           <p className="text-2xl font-bold">{stats.wardsActive.length}</p>
         </div>
         <div className="border rounded-lg p-4">
-          <p className="text-xs text-muted-foreground">Performance Score</p>
+          <p className="text-xs text-muted-foreground">
+            <InfoTooltip glossaryKey="performanceScore">Performance Score</InfoTooltip>
+          </p>
           <p className="text-2xl font-bold">
             {(stats.performanceScore * 100).toFixed(0)}%
           </p>
@@ -141,6 +146,25 @@ export default function ContractorPage({ params }: ContractorPageProps) {
         <div className="mt-8">
           <h2 className="text-lg font-semibold mb-2">Registered Address</h2>
           <p className="text-sm text-muted-foreground">{contractor.address}</p>
+        </div>
+      )}
+
+      {/* Contact Info */}
+      {(contractor.phone || contractor.email) && (
+        <div className="mt-4">
+          <h2 className="text-lg font-semibold mb-2">Contact</h2>
+          <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+            {contractor.phone && (
+              <a href={`tel:${contractor.phone}`} className="text-blue-600 hover:underline">
+                {contractor.phone}
+              </a>
+            )}
+            {contractor.email && (
+              <a href={`mailto:${contractor.email}`} className="text-blue-600 hover:underline">
+                {contractor.email}
+              </a>
+            )}
+          </div>
         </div>
       )}
     </div>

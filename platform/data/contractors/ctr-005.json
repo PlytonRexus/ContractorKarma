@@ -4,17 +4,35 @@
   "registrationNumber": "BBMP/CR/2021/445",
   "registrationClass": "Class II",
   "address": "No. 23, Jayanagar 9th Block, Bengaluru",
+  "phone": "+91 80 4000 0005",
+  "email": "info@southcityengineers.co.in",
   "stats": {
-    "totalWorks": 10,
-    "totalSanctionedValue": 26970000,
-    "worksCompletedOnTime": 6,
-    "worksDelayed": 3,
-    "dlpViolations": 3,
-    "avgCostPerKm": 4100000,
-    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-    "performanceGrade": "C",
-    "performanceScore": 0.55
+    "totalWorks": 11,
+    "totalSanctionedValue": 36128368,
+    "worksCompletedOnTime": 3,
+    "worksDelayed": 4,
+    "dlpViolations": 5,
+    "avgCostPerKm": 4275547,
+    "wardsActive": [
+      "168-jayanagar",
+      "176-btm-layout",
+      "150-bellandur"
+    ],
+    "performanceGrade": "D",
+    "performanceScore": 0.44
   },
   "blacklisted": false,
-  "works": ["150-19-000020", "150-23-000021", "150-21-000030", "150-21-000038", "150-21-000044", "150-24-000052", "150-23-000057", "168-23-000002", "168-24-000006", "176-21-000001", "176-22-000005"]
+  "works": [
+    "150-19-000020",
+    "150-23-000021",
+    "150-22-000026",
+    "150-22-000034",
+    "150-21-000038",
+    "150-21-000044",
+    "150-24-000052",
+    "168-21-000002",
+    "168-24-000006",
+    "176-23-000001",
+    "176-23-000005"
+  ]
 }

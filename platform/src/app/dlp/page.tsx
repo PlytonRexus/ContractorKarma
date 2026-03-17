@@ -64,6 +64,16 @@ export default function DlpTrackerPage() {
         cost.
       </p>
 
+      <div className="rounded-md bg-blue-50 border border-blue-200 px-4 py-3 mb-4">
+        <p className="text-xs text-blue-800">
+          <span className="font-semibold">What is DLP?</span> After road work is completed, the contractor
+          enters a Defect Liability Period (warranty) -- typically 3 years for asphalt, 5 for concrete,
+          and 10 for white-topping. During this period, the contractor must fix any defects (potholes,
+          cracks, sinking) at their own cost. If your road has issues and is under warranty, the contractor
+          is legally obligated to repair it for free. You can complain to BBMP or file an RTI.
+        </p>
+      </div>
+
       <DlpLegend className="mb-4" />
 
       {/* Filter tabs */}

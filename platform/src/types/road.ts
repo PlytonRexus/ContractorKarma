@@ -18,5 +18,7 @@ export interface Road {
   currentContractor: string | null;
   totalWorksCount: number;
   totalSpending: number;
+  lat: number | null;
+  lng: number | null;
   lastUpdated: string;
 }

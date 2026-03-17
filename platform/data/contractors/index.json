@@ -5,19 +5,34 @@
     "registrationNumber": "BBMP/CR/2019/456",
     "registrationClass": "Class I",
     "address": "No. 42, Industrial Area, Peenya, Bengaluru",
+    "phone": "+91 80 4000 0001",
+    "email": "info@srinivasaconstructio.co.in",
     "stats": {
       "totalWorks": 10,
-      "totalSanctionedValue": 44500000,
-      "worksCompletedOnTime": 8,
+      "totalSanctionedValue": 43930428,
+      "worksCompletedOnTime": 5,
       "worksDelayed": 0,
-      "dlpViolations": 2,
-      "avgCostPerKm": 4200000,
-      "wardsActive": ["150-bellandur"],
-      "performanceGrade": "B",
-      "performanceScore": 0.74
+      "dlpViolations": 4,
+      "avgCostPerKm": 4658582,
+      "wardsActive": [
+        "150-bellandur"
+      ],
+      "performanceGrade": "C",
+      "performanceScore": 0.67
     },
     "blacklisted": false,
-    "works": ["150-19-000007", "150-21-000015", "150-24-000016", "150-24-000018", "150-24-000011", "150-22-000028", "150-22-000041", "150-25-000048", "150-25-000051", "150-21-000022"]
+    "works": [
+      "150-19-000007",
+      "150-24-000011",
+      "150-21-000015",
+      "150-24-000016",
+      "150-24-000018",
+      "150-25-000022",
+      "150-22-000030",
+      "150-22-000041",
+      "150-25-000048",
+      "150-25-000051"
+    ]
   },
   {
     "contractorId": "ctr-002",
@@ -25,19 +40,30 @@
     "registrationNumber": "BBMP/CR/2018/203",
     "registrationClass": "Class I",
     "address": "No. 18, Rajajinagar Industrial Estate, Bengaluru",
+    "phone": "+91 80 4000 0002",
+    "email": "info@abcinfrapvtltd.co.in",
     "stats": {
-      "totalWorks": 5,
-      "totalSanctionedValue": 27360000,
-      "worksCompletedOnTime": 1,
-      "worksDelayed": 4,
+      "totalWorks": 6,
+      "totalSanctionedValue": 29602177,
+      "worksCompletedOnTime": 0,
+      "worksDelayed": 2,
       "dlpViolations": 4,
-      "avgCostPerKm": 5200000,
-      "wardsActive": ["150-bellandur"],
+      "avgCostPerKm": 5000368,
+      "wardsActive": [
+        "150-bellandur"
+      ],
       "performanceGrade": "D",
-      "performanceScore": 0.38
+      "performanceScore": 0.3
     },
     "blacklisted": false,
-    "works": ["150-21-000001", "150-23-000002", "150-22-000019", "150-21-000009", "150-22-000023", "150-23-000058"]
+    "works": [
+      "150-21-000001",
+      "150-23-000002",
+      "150-21-000009",
+      "150-22-000019",
+      "150-21-000023",
+      "150-24-000031"
+    ]
   },
   {
     "contractorId": "ctr-003",
@@ -45,19 +71,31 @@
     "registrationNumber": "BBMP/CR/2020/312",
     "registrationClass": "Class II",
     "address": "No. 7, Vijayanagar, Bengaluru",
+    "phone": "+91 80 4000 0003",
+    "email": "info@kaveriroadbuilders.co.in",
     "stats": {
-      "totalWorks": 8,
-      "totalSanctionedValue": 30120000,
-      "worksCompletedOnTime": 5,
-      "worksDelayed": 2,
-      "dlpViolations": 3,
-      "avgCostPerKm": 4000000,
-      "wardsActive": ["150-bellandur"],
-      "performanceGrade": "C",
-      "performanceScore": 0.58
+      "totalWorks": 7,
+      "totalSanctionedValue": 19517861,
+      "worksCompletedOnTime": 1,
+      "worksDelayed": 1,
+      "dlpViolations": 2,
+      "avgCostPerKm": 3880290,
+      "wardsActive": [
+        "150-bellandur"
+      ],
+      "performanceGrade": "D",
+      "performanceScore": 0.47
     },
     "blacklisted": false,
-    "works": ["150-19-000012", "150-23-000013", "150-21-000033", "150-23-000035", "150-20-000029", "150-20-000042", "150-24-000050", "150-19-000055"]
+    "works": [
+      "150-19-000012",
+      "150-23-000013",
+      "150-24-000024",
+      "150-25-000032",
+      "150-23-000035",
+      "150-20-000042",
+      "150-24-000050"
+    ]
   },
   {
     "contractorId": "ctr-004",
@@ -65,19 +103,36 @@
     "registrationNumber": "BBMP/CR/2017/089",
     "registrationClass": "Class I",
     "address": "No. 55, Koramangala 4th Block, Bengaluru",
+    "phone": "+91 80 4000 0004",
+    "email": "info@nandiinfrastructure.co.in",
     "stats": {
-      "totalWorks": 12,
-      "totalSanctionedValue": 116740000,
-      "worksCompletedOnTime": 10,
+      "totalWorks": 11,
+      "totalSanctionedValue": 115968540,
+      "worksCompletedOnTime": 2,
       "worksDelayed": 2,
-      "dlpViolations": 0,
-      "avgCostPerKm": 7500000,
-      "wardsActive": ["150-bellandur", "168-jayanagar"],
+      "dlpViolations": 2,
+      "avgCostPerKm": 9576263,
+      "wardsActive": [
+        "168-jayanagar",
+        "150-bellandur"
+      ],
       "performanceGrade": "A",
-      "performanceScore": 0.90
+      "performanceScore": 0.9
     },
     "blacklisted": false,
-    "works": ["150-20-000004", "150-24-000005", "150-24-000008", "150-23-000024", "150-24-000036", "150-23-000045", "150-25-000049", "150-22-000059", "150-24-000056", "150-25-000054", "168-22-000001", "168-23-000005"]
+    "works": [
+      "150-20-000004",
+      "150-24-000005",
+      "150-24-000008",
+      "150-20-000025",
+      "150-20-000033",
+      "150-24-000036",
+      "150-23-000045",
+      "150-25-000049",
+      "150-25-000054",
+      "168-23-000001",
+      "168-24-000005"
+    ]
   },
   {
     "contractorId": "ctr-005",
@@ -85,19 +140,37 @@
     "registrationNumber": "BBMP/CR/2021/445",
     "registrationClass": "Class II",
     "address": "No. 23, Jayanagar 9th Block, Bengaluru",
+    "phone": "+91 80 4000 0005",
+    "email": "info@southcityengineers.co.in",
     "stats": {
-      "totalWorks": 10,
-      "totalSanctionedValue": 26970000,
-      "worksCompletedOnTime": 6,
-      "worksDelayed": 3,
-      "dlpViolations": 3,
-      "avgCostPerKm": 4100000,
-      "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-      "performanceGrade": "C",
-      "performanceScore": 0.55
+      "totalWorks": 11,
+      "totalSanctionedValue": 36128368,
+      "worksCompletedOnTime": 3,
+      "worksDelayed": 4,
+      "dlpViolations": 5,
+      "avgCostPerKm": 4275547,
+      "wardsActive": [
+        "168-jayanagar",
+        "176-btm-layout",
+        "150-bellandur"
+      ],
+      "performanceGrade": "D",
+      "performanceScore": 0.44
     },
     "blacklisted": false,
-    "works": ["150-19-000020", "150-23-000021", "150-21-000030", "150-21-000038", "150-21-000044", "150-24-000052", "150-23-000057", "168-23-000002", "168-24-000006", "176-21-000001", "176-22-000005"]
+    "works": [
+      "150-19-000020",
+      "150-23-000021",
+      "150-22-000026",
+      "150-22-000034",
+      "150-21-000038",
+      "150-21-000044",
+      "150-24-000052",
+      "168-21-000002",
+      "168-24-000006",
+      "176-23-000001",
+      "176-23-000005"
+    ]
   },
   {
     "contractorId": "ctr-006",
@@ -105,19 +178,33 @@
     "registrationNumber": "BBMP/CR/2016/178",
     "registrationClass": "Class I",
     "address": "No. 101, Whitefield Main Road, Bengaluru",
+    "phone": "+91 80 4000 0006",
+    "email": "info@metroroads&bridges.co.in",
     "stats": {
-      "totalWorks": 8,
-      "totalSanctionedValue": 30680000,
-      "worksCompletedOnTime": 5,
-      "worksDelayed": 2,
-      "dlpViolations": 3,
-      "avgCostPerKm": 4500000,
-      "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-      "performanceGrade": "C",
-      "performanceScore": 0.56
+      "totalWorks": 7,
+      "totalSanctionedValue": 27864947,
+      "worksCompletedOnTime": 2,
+      "worksDelayed": 1,
+      "dlpViolations": 5,
+      "avgCostPerKm": 4605776,
+      "wardsActive": [
+        "168-jayanagar",
+        "176-btm-layout",
+        "150-bellandur"
+      ],
+      "performanceGrade": "D",
+      "performanceScore": 0.46
     },
     "blacklisted": false,
-    "works": ["150-22-000003", "150-20-000010", "150-22-000025", "150-22-000034", "150-24-000040", "150-22-000047", "168-21-000003", "176-23-000002"]
+    "works": [
+      "150-22-000003",
+      "150-20-000010",
+      "150-20-000027",
+      "150-24-000040",
+      "150-22-000047",
+      "168-24-000003",
+      "176-20-000002"
+    ]
   },
   {
     "contractorId": "ctr-007",
@@ -125,19 +212,33 @@
     "registrationNumber": "BBMP/CR/2022/511",
     "registrationClass": "Class III",
     "address": "No. 3, Bannerghatta Road, Bengaluru",
+    "phone": "+91 80 4000 0007",
+    "email": "info@lakshmicivilworks.co.in",
     "stats": {
       "totalWorks": 7,
-      "totalSanctionedValue": 10300000,
-      "worksCompletedOnTime": 5,
-      "worksDelayed": 1,
+      "totalSanctionedValue": 8819111,
+      "worksCompletedOnTime": 2,
+      "worksDelayed": 2,
       "dlpViolations": 2,
-      "avgCostPerKm": 3500000,
-      "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
-      "performanceGrade": "B",
-      "performanceScore": 0.72
+      "avgCostPerKm": 3206949,
+      "wardsActive": [
+        "168-jayanagar",
+        "176-btm-layout",
+        "150-bellandur"
+      ],
+      "performanceGrade": "D",
+      "performanceScore": 0.5
     },
     "blacklisted": false,
-    "works": ["150-23-000006", "150-18-000014", "150-20-000026", "150-23-000031", "150-23-000039", "150-24-000046", "168-24-000004", "176-22-000003"]
+    "works": [
+      "150-23-000006",
+      "150-18-000014",
+      "150-19-000028",
+      "150-23-000039",
+      "150-24-000046",
+      "168-24-000004",
+      "176-23-000003"
+    ]
   },
   {
     "contractorId": "ctr-008",
@@ -145,18 +246,31 @@
     "registrationNumber": "BBMP/CR/2019/290",
     "registrationClass": "Class II",
     "address": "No. 64, Hebbal Industrial Area, Bengaluru",
+    "phone": "+91 80 4000 0008",
+    "email": "info@deccanroadways.co.in",
     "stats": {
-      "totalWorks": 10,
-      "totalSanctionedValue": 43160000,
-      "worksCompletedOnTime": 6,
-      "worksDelayed": 2,
+      "totalWorks": 7,
+      "totalSanctionedValue": 38114630,
+      "worksCompletedOnTime": 1,
+      "worksDelayed": 1,
       "dlpViolations": 2,
-      "avgCostPerKm": 5000000,
-      "wardsActive": ["150-bellandur", "176-btm-layout"],
-      "performanceGrade": "C",
-      "performanceScore": 0.60
+      "avgCostPerKm": 5810157,
+      "wardsActive": [
+        "176-btm-layout",
+        "150-bellandur"
+      ],
+      "performanceGrade": "D",
+      "performanceScore": 0.47
     },
     "blacklisted": false,
-    "works": ["150-20-000017", "150-24-000027", "150-22-000037", "150-24-000032", "150-24-000043", "150-24-000053", "150-23-000060", "176-20-000004", "176-24-000006"]
+    "works": [
+      "150-20-000017",
+      "150-24-000029",
+      "150-22-000037",
+      "150-24-000043",
+      "150-24-000053",
+      "176-22-000004",
+      "176-24-000006"
+    ]
   }
 ]

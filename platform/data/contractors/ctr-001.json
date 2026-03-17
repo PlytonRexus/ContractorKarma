@@ -4,17 +4,32 @@
   "registrationNumber": "BBMP/CR/2019/456",
   "registrationClass": "Class I",
   "address": "No. 42, Industrial Area, Peenya, Bengaluru",
+  "phone": "+91 80 4000 0001",
+  "email": "info@srinivasaconstructio.co.in",
   "stats": {
     "totalWorks": 10,
-    "totalSanctionedValue": 44500000,
-    "worksCompletedOnTime": 8,
+    "totalSanctionedValue": 43930428,
+    "worksCompletedOnTime": 5,
     "worksDelayed": 0,
-    "dlpViolations": 2,
-    "avgCostPerKm": 4200000,
-    "wardsActive": ["150-bellandur"],
-    "performanceGrade": "B",
-    "performanceScore": 0.74
+    "dlpViolations": 4,
+    "avgCostPerKm": 4658582,
+    "wardsActive": [
+      "150-bellandur"
+    ],
+    "performanceGrade": "C",
+    "performanceScore": 0.67
   },
   "blacklisted": false,
-  "works": ["150-19-000007", "150-21-000015", "150-24-000016", "150-24-000018", "150-24-000011", "150-22-000028", "150-22-000041", "150-25-000048", "150-25-000051", "150-21-000022"]
+  "works": [
+    "150-19-000007",
+    "150-24-000011",
+    "150-21-000015",
+    "150-24-000016",
+    "150-24-000018",
+    "150-25-000022",
+    "150-22-000030",
+    "150-22-000041",
+    "150-25-000048",
+    "150-25-000051"
+  ]
 }

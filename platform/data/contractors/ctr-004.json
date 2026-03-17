@@ -4,17 +4,34 @@
   "registrationNumber": "BBMP/CR/2017/089",
   "registrationClass": "Class I",
   "address": "No. 55, Koramangala 4th Block, Bengaluru",
+  "phone": "+91 80 4000 0004",
+  "email": "info@nandiinfrastructure.co.in",
   "stats": {
-    "totalWorks": 12,
-    "totalSanctionedValue": 116740000,
-    "worksCompletedOnTime": 10,
+    "totalWorks": 11,
+    "totalSanctionedValue": 115968540,
+    "worksCompletedOnTime": 2,
     "worksDelayed": 2,
-    "dlpViolations": 0,
-    "avgCostPerKm": 7500000,
-    "wardsActive": ["150-bellandur", "168-jayanagar"],
+    "dlpViolations": 2,
+    "avgCostPerKm": 9576263,
+    "wardsActive": [
+      "168-jayanagar",
+      "150-bellandur"
+    ],
     "performanceGrade": "A",
-    "performanceScore": 0.90
+    "performanceScore": 0.9
   },
   "blacklisted": false,
-  "works": ["150-20-000004", "150-24-000005", "150-24-000008", "150-23-000024", "150-24-000036", "150-23-000045", "150-25-000049", "150-22-000059", "150-24-000056", "150-25-000054", "168-22-000001", "168-23-000005"]
+  "works": [
+    "150-20-000004",
+    "150-24-000005",
+    "150-24-000008",
+    "150-20-000025",
+    "150-20-000033",
+    "150-24-000036",
+    "150-23-000045",
+    "150-25-000049",
+    "150-25-000054",
+    "168-23-000001",
+    "168-24-000005"
+  ]
 }

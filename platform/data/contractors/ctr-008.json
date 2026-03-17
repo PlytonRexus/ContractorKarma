@@ -4,17 +4,30 @@
   "registrationNumber": "BBMP/CR/2019/290",
   "registrationClass": "Class II",
   "address": "No. 64, Hebbal Industrial Area, Bengaluru",
+  "phone": "+91 80 4000 0008",
+  "email": "info@deccanroadways.co.in",
   "stats": {
-    "totalWorks": 10,
-    "totalSanctionedValue": 43160000,
-    "worksCompletedOnTime": 6,
-    "worksDelayed": 2,
+    "totalWorks": 7,
+    "totalSanctionedValue": 38114630,
+    "worksCompletedOnTime": 1,
+    "worksDelayed": 1,
     "dlpViolations": 2,
-    "avgCostPerKm": 5000000,
-    "wardsActive": ["150-bellandur", "176-btm-layout"],
-    "performanceGrade": "C",
-    "performanceScore": 0.60
+    "avgCostPerKm": 5810157,
+    "wardsActive": [
+      "176-btm-layout",
+      "150-bellandur"
+    ],
+    "performanceGrade": "D",
+    "performanceScore": 0.47
   },
   "blacklisted": false,
-  "works": ["150-20-000017", "150-24-000027", "150-22-000037", "150-24-000032", "150-24-000043", "150-24-000053", "150-23-000060", "176-20-000004", "176-24-000006"]
+  "works": [
+    "150-20-000017",
+    "150-24-000029",
+    "150-22-000037",
+    "150-24-000043",
+    "150-24-000053",
+    "176-22-000004",
+    "176-24-000006"
+  ]
 }
