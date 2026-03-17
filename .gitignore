@@ -5,8 +5,9 @@ platform/node_modules/
 platform/.next/
 platform/out/
 
-# Generated API data (rebuilt on every build)
+# Generated data (rebuilt on every build)
 platform/public/api/
+platform/public/data/
 
 # Python
 __pycache__/
