@@ -1,0 +1,79 @@
+{
+  "wardSlug": "168-jayanagar",
+  "generatedAt": "2026-03-17",
+  "summary": {
+    "totalWorks": 6,
+    "active": 4,
+    "expiringSoon": 0,
+    "expired": 2,
+    "unknown": 0
+  },
+  "items": [
+    {
+      "jobCode": "168-22-000001",
+      "roadId": "blr-sth-168-001",
+      "roadName": "30th Cross, Jayanagar 4th Block",
+      "contractorId": "ctr-004",
+      "contractorName": "M/s Nandi Infrastructure",
+      "dlpStartDate": "2022-08-10",
+      "dlpEndDate": "2025-08-10",
+      "dlpDurationYears": 3,
+      "dlpStatus": "expired"
+    },
+    {
+      "jobCode": "168-23-000002",
+      "roadId": "blr-sth-168-002",
+      "roadName": "11th Main, Jayanagar 3rd Block",
+      "contractorId": "ctr-005",
+      "contractorName": "M/s South City Engineers",
+      "dlpStartDate": "2023-10-05",
+      "dlpEndDate": "2028-10-05",
+      "dlpDurationYears": 5,
+      "dlpStatus": "active"
+    },
+    {
+      "jobCode": "168-21-000003",
+      "roadId": "blr-sth-168-003",
+      "roadName": "9th Cross, Jayanagar 5th Block",
+      "contractorId": "ctr-006",
+      "contractorName": "M/s Metro Roads & Bridges",
+      "dlpStartDate": "2021-11-20",
+      "dlpEndDate": "2024-11-20",
+      "dlpDurationYears": 3,
+      "dlpStatus": "expired"
+    },
+    {
+      "jobCode": "168-24-000004",
+      "roadId": "blr-sth-168-004",
+      "roadName": "33rd Cross, Jayanagar 4th T Block",
+      "contractorId": "ctr-007",
+      "contractorName": "M/s Lakshmi Civil Works",
+      "dlpStartDate": "2024-07-15",
+      "dlpEndDate": "2027-07-15",
+      "dlpDurationYears": 3,
+      "dlpStatus": "active"
+    },
+    {
+      "jobCode": "168-23-000005",
+      "roadId": "blr-sth-168-005",
+      "roadName": "Jayanagar Shopping Complex Road",
+      "contractorId": "ctr-004",
+      "contractorName": "M/s Nandi Infrastructure",
+      "dlpStartDate": "2023-10-05",
+      "dlpEndDate": "2033-10-05",
+      "dlpDurationYears": 10,
+      "dlpStatus": "active"
+    },
+    {
+      "jobCode": "168-24-000006",
+      "roadId": "blr-sth-168-002",
+      "roadName": "11th Main, Jayanagar 3rd Block",
+      "contractorId": "ctr-005",
+      "contractorName": "M/s South City Engineers",
+      "dlpStartDate": "2025-06-15",
+      "dlpEndDate": "2030-06-15",
+      "dlpDurationYears": 5,
+      "dlpStatus": "active"
+    }
+  ]
+}

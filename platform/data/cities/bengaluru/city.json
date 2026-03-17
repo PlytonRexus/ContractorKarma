@@ -1,0 +1,12 @@
+{
+  "cityId": "bengaluru",
+  "cityName": "Bengaluru",
+  "state": "Karnataka",
+  "municipalBody": "BBMP",
+  "totalZones": 8,
+  "totalWards": 243,
+  "zonesAvailable": [
+    "mahadevapura",
+    "south"
+  ]
+}

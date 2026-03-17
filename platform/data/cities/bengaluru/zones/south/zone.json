@@ -1,0 +1,10 @@
+{
+  "zoneId": "blr-sth",
+  "zoneName": "South",
+  "cityId": "bengaluru",
+  "wardsCount": 28,
+  "wardsAvailable": [
+    "168-jayanagar",
+    "176-btm-layout"
+  ]
+}

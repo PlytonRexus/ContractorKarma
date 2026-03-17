@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-008",
+  "legalName": "M/s Deccan Roadways",
+  "registrationNumber": "BBMP/CR/2019/290",
+  "registrationClass": "Class II",
+  "address": "No. 64, Hebbal Industrial Area, Bengaluru",
+  "stats": {
+    "totalWorks": 10,
+    "totalSanctionedValue": 43160000,
+    "worksCompletedOnTime": 6,
+    "worksDelayed": 2,
+    "dlpViolations": 2,
+    "avgCostPerKm": 5000000,
+    "wardsActive": ["150-bellandur", "176-btm-layout"],
+    "performanceGrade": "C",
+    "performanceScore": 0.60
+  },
+  "blacklisted": false,
+  "works": ["150-20-000017", "150-24-000027", "150-22-000037", "150-24-000032", "150-24-000043", "150-24-000053", "150-23-000060", "176-20-000004", "176-24-000006"]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "officialId": "off-007",
+    "name": "Karthik V",
+    "designation": "AE",
+    "department": "BBMP Engineering",
+    "zone": "South",
+    "wardNumbers": [168],
+    "phone": null,
+    "email": null,
+    "activeSince": "2020-01-15"
+  },
+  {
+    "officialId": "off-008",
+    "name": "Lakshmi D",
+    "designation": "AEE",
+    "department": "BBMP Engineering",
+    "zone": "South",
+    "wardNumbers": [168],
+    "phone": null,
+    "email": null,
+    "activeSince": "2019-07-01"
+  },
+  {
+    "officialId": "off-009",
+    "name": "Harish B",
+    "designation": "EE",
+    "department": "BBMP Engineering",
+    "zone": "South",
+    "wardNumbers": [168, 176],
+    "phone": null,
+    "email": null,
+    "activeSince": "2016-05-20"
+  },
+  {
+    "officialId": "off-013",
+    "name": "Naveen J",
+    "designation": "JE",
+    "department": "BBMP Engineering",
+    "zone": "South",
+    "wardNumbers": [168],
+    "phone": null,
+    "email": null,
+    "activeSince": "2022-11-15"
+  },
+  {
+    "officialId": "off-014",
+    "name": "Rekha H",
+    "designation": "SE",
+    "department": "BBMP Engineering",
+    "zone": "South",
+    "wardNumbers": [168, 176],
+    "phone": null,
+    "email": null,
+    "activeSince": "2014-08-01"
+  }
+]

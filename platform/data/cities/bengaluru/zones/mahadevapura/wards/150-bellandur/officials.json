@@ -1,0 +1,79 @@
+[
+  {
+    "officialId": "off-001",
+    "name": "Ramesh K",
+    "designation": "AE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2019-04-01"
+  },
+  {
+    "officialId": "off-002",
+    "name": "Suresh M",
+    "designation": "AEE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2018-06-15"
+  },
+  {
+    "officialId": "off-003",
+    "name": "Vijay N",
+    "designation": "EE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2017-01-10"
+  },
+  {
+    "officialId": "off-004",
+    "name": "Priya S",
+    "designation": "AE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2021-08-20"
+  },
+  {
+    "officialId": "off-005",
+    "name": "Anand R",
+    "designation": "JE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2022-03-01"
+  },
+  {
+    "officialId": "off-006",
+    "name": "Meena T",
+    "designation": "SE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2015-11-01"
+  },
+  {
+    "officialId": "off-012",
+    "name": "Shantha R",
+    "designation": "JE",
+    "department": "BBMP Engineering",
+    "zone": "Mahadevapura",
+    "wardNumbers": [150],
+    "phone": null,
+    "email": null,
+    "activeSince": "2023-01-05"
+  }
+]

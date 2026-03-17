@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-03-17",
+  "totalFlags": 6,
+  "flags": [
+    {
+      "flagId": "rf-001",
+      "type": "repeatFailure",
+      "severity": "high",
+      "description": "Road resurfaced within 18 months of previous work",
+      "roadId": "blr-mhd-150-003",
+      "roadName": "Main Road, Kaikondrahalli",
+      "contractorId": "ctr-002",
+      "contractorName": "M/s ABC Infra Pvt Ltd",
+      "details": {
+        "previousWork": "150-21-000001",
+        "previousCompletion": "2022-01-10",
+        "newWork": "150-23-000002",
+        "newWoDate": "2023-06-20",
+        "gapMonths": 17
+      }
+    },
+    {
+      "flagId": "rf-002",
+      "type": "costOutlier",
+      "severity": "high",
+      "description": "Sanctioned cost is 80%+ above zone average for similar road class",
+      "roadId": "blr-mhd-150-007",
+      "roadName": "Haralur Road",
+      "contractorId": "ctr-006",
+      "contractorName": "M/s Metro Roads & Bridges",
+      "details": {
+        "jobCode": "150-22-000003",
+        "sanctionedCost": 18000000,
+        "costPerKm": 7200000,
+        "zoneAvgCostPerKm": 4200000,
+        "deviationPct": 71
+      }
+    },
+    {
+      "flagId": "rf-003",
+      "type": "delayedCompletion",
+      "severity": "medium",
+      "description": "Work completed more than 6 months past stipulated date",
+      "roadId": "blr-mhd-150-011",
+      "roadName": "Sarjapur Road (Bellandur stretch)",
+      "contractorId": "ctr-004",
+      "contractorName": "M/s Nandi Infrastructure",
+      "details": {
+        "jobCode": "150-20-000004",
+        "stipulatedCompletion": "2020-09-10",
+        "actualCompletion": "2021-06-20"
+      }
+    },
+    {
+      "flagId": "rf-004",
+      "type": "missingFields",
+      "severity": "medium",
+      "description": "Work record has missing actual paid amount and completion date",
+      "roadId": "blr-mhd-150-018",
+      "roadName": "1st Cross, Devarabisanahalli",
+      "contractorId": "ctr-007",
+      "contractorName": "M/s Lakshmi Civil Works",
+      "details": {
+        "jobCode": "150-23-000006",
+        "missingFields": ["actualPaid", "actualCompletionDate", "dlpStartDate", "dlpEndDate"]
+      }
+    },
+    {
+      "flagId": "rf-005",
+      "type": "singleBid",
+      "severity": "low",
+      "description": "Tender received only one bid, reducing competitive pricing",
+      "roadId": "blr-mhd-150-013",
+      "roadName": "6th Main, Dollar Colony, Bellandur",
+      "contractorId": "ctr-007",
+      "contractorName": "M/s Lakshmi Civil Works",
+      "details": {
+        "jobCode": "150-20-000026",
+        "tenderNumber": "MHD/T/2020/168",
+        "bidCount": 1
+      }
+    },
+    {
+      "flagId": "rf-006",
+      "type": "poorContractorPerformance",
+      "severity": "high",
+      "description": "Contractor has performance grade D with multiple DLP violations and delayed works",
+      "roadId": null,
+      "roadName": null,
+      "contractorId": "ctr-002",
+      "contractorName": "M/s ABC Infra Pvt Ltd",
+      "details": {
+        "performanceGrade": "D",
+        "performanceScore": 0.38,
+        "totalWorks": 5,
+        "worksDelayed": 4,
+        "dlpViolations": 4
+      }
+    }
+  ]
+}

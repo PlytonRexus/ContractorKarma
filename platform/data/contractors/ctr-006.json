@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-006",
+  "legalName": "M/s Metro Roads & Bridges",
+  "registrationNumber": "BBMP/CR/2016/178",
+  "registrationClass": "Class I",
+  "address": "No. 101, Whitefield Main Road, Bengaluru",
+  "stats": {
+    "totalWorks": 8,
+    "totalSanctionedValue": 30680000,
+    "worksCompletedOnTime": 5,
+    "worksDelayed": 2,
+    "dlpViolations": 3,
+    "avgCostPerKm": 4500000,
+    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
+    "performanceGrade": "C",
+    "performanceScore": 0.56
+  },
+  "blacklisted": false,
+  "works": ["150-22-000003", "150-20-000010", "150-22-000025", "150-22-000034", "150-24-000040", "150-22-000047", "168-21-000003", "176-23-000002"]
+}

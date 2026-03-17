@@ -1,0 +1,31 @@
+# Dependencies
+platform/node_modules/
+
+# Next.js build output
+platform/.next/
+platform/out/
+
+# Generated API data (rebuilt on every build)
+platform/public/api/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+platform/.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*.local

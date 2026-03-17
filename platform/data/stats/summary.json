@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-03-17",
+  "totalCities": 1,
+  "totalZones": 2,
+  "totalWards": 3,
+  "totalRoads": 35,
+  "totalWorks": 72,
+  "totalContractors": 8,
+  "totalOfficials": 15,
+  "financials": {
+    "totalSanctionedCost": 347570000,
+    "totalActualPaid": 337060000,
+    "avgCostPerWork": 4827361
+  },
+  "dlp": {
+    "active": 36,
+    "expiringSoon": 5,
+    "expired": 30
+  },
+  "performance": {
+    "worksDelayed": 18,
+    "delayPercentage": 25.0,
+    "redFlagsTotal": 6
+  }
+}

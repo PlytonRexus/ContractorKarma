@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "wardNumber": 150,
+        "wardName": "Bellandur",
+        "wardSlug": "150-bellandur",
+        "zone": "Mahadevapura"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.6500, 12.9250],
+            [77.6800, 12.9250],
+            [77.6800, 12.9550],
+            [77.6500, 12.9550],
+            [77.6500, 12.9250]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wardNumber": 168,
+        "wardName": "Jayanagar",
+        "wardSlug": "168-jayanagar",
+        "zone": "South"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.5750, 12.9200],
+            [77.5950, 12.9200],
+            [77.5950, 12.9400],
+            [77.5750, 12.9400],
+            [77.5750, 12.9200]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wardNumber": 176,
+        "wardName": "BTM Layout",
+        "wardSlug": "176-btm-layout",
+        "zone": "South"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.6000, 12.9050],
+            [77.6250, 12.9050],
+            [77.6250, 12.9300],
+            [77.6000, 12.9300],
+            [77.6000, 12.9050]
+          ]
+        ]
+      }
+    }
+  ]
+}

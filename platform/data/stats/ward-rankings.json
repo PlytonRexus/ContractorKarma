@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-03-17",
+  "rankings": [
+    {
+      "wardSlug": "168-jayanagar",
+      "wardName": "Jayanagar",
+      "wardNumber": 168,
+      "totalRoads": 5,
+      "totalWorks": 6,
+      "totalSpending": 32200000,
+      "worksDelayed": 2,
+      "redFlagCount": 0,
+      "transparencyScore": 0.83
+    },
+    {
+      "wardSlug": "176-btm-layout",
+      "wardName": "BTM Layout",
+      "wardNumber": 176,
+      "totalRoads": 5,
+      "totalWorks": 6,
+      "totalSpending": 37640000,
+      "worksDelayed": 2,
+      "redFlagCount": 0,
+      "transparencyScore": 0.83
+    },
+    {
+      "wardSlug": "150-bellandur",
+      "wardName": "Bellandur",
+      "wardNumber": 150,
+      "totalRoads": 25,
+      "totalWorks": 60,
+      "totalSpending": 277730000,
+      "worksDelayed": 14,
+      "redFlagCount": 5,
+      "transparencyScore": 0.63
+    }
+  ]
+}

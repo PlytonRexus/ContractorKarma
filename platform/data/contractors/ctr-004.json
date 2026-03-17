@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-004",
+  "legalName": "M/s Nandi Infrastructure",
+  "registrationNumber": "BBMP/CR/2017/089",
+  "registrationClass": "Class I",
+  "address": "No. 55, Koramangala 4th Block, Bengaluru",
+  "stats": {
+    "totalWorks": 12,
+    "totalSanctionedValue": 116740000,
+    "worksCompletedOnTime": 10,
+    "worksDelayed": 2,
+    "dlpViolations": 0,
+    "avgCostPerKm": 7500000,
+    "wardsActive": ["150-bellandur", "168-jayanagar"],
+    "performanceGrade": "A",
+    "performanceScore": 0.90
+  },
+  "blacklisted": false,
+  "works": ["150-20-000004", "150-24-000005", "150-24-000008", "150-23-000024", "150-24-000036", "150-23-000045", "150-25-000049", "150-22-000059", "150-24-000056", "150-25-000054", "168-22-000001", "168-23-000005"]
+}

@@ -1,0 +1,10 @@
+{
+  "platformName": "Contractor Karma",
+  "version": "0.1.0",
+  "description": "Transparency platform for public road works in Indian cities",
+  "dataAsOf": "2026-03-17",
+  "generatedBy": "seed/generate_seed.py",
+  "cities": [
+    "bengaluru"
+  ]
+}

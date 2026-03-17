@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-001",
+  "legalName": "M/s Srinivasa Constructions",
+  "registrationNumber": "BBMP/CR/2019/456",
+  "registrationClass": "Class I",
+  "address": "No. 42, Industrial Area, Peenya, Bengaluru",
+  "stats": {
+    "totalWorks": 10,
+    "totalSanctionedValue": 44500000,
+    "worksCompletedOnTime": 8,
+    "worksDelayed": 0,
+    "dlpViolations": 2,
+    "avgCostPerKm": 4200000,
+    "wardsActive": ["150-bellandur"],
+    "performanceGrade": "B",
+    "performanceScore": 0.74
+  },
+  "blacklisted": false,
+  "works": ["150-19-000007", "150-21-000015", "150-24-000016", "150-24-000018", "150-24-000011", "150-22-000028", "150-22-000041", "150-25-000048", "150-25-000051", "150-21-000022"]
+}

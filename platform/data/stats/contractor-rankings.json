@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-03-17",
+  "rankings": [
+    {
+      "contractorId": "ctr-004",
+      "legalName": "M/s Nandi Infrastructure",
+      "performanceGrade": "A",
+      "performanceScore": 0.90,
+      "totalWorks": 12,
+      "worksDelayed": 2,
+      "dlpViolations": 0,
+      "totalSanctionedValue": 116740000
+    },
+    {
+      "contractorId": "ctr-001",
+      "legalName": "M/s Srinivasa Constructions",
+      "performanceGrade": "B",
+      "performanceScore": 0.74,
+      "totalWorks": 10,
+      "worksDelayed": 0,
+      "dlpViolations": 2,
+      "totalSanctionedValue": 44500000
+    },
+    {
+      "contractorId": "ctr-007",
+      "legalName": "M/s Lakshmi Civil Works",
+      "performanceGrade": "B",
+      "performanceScore": 0.72,
+      "totalWorks": 7,
+      "worksDelayed": 1,
+      "dlpViolations": 2,
+      "totalSanctionedValue": 10300000
+    },
+    {
+      "contractorId": "ctr-008",
+      "legalName": "M/s Deccan Roadways",
+      "performanceGrade": "C",
+      "performanceScore": 0.60,
+      "totalWorks": 10,
+      "worksDelayed": 2,
+      "dlpViolations": 2,
+      "totalSanctionedValue": 43160000
+    },
+    {
+      "contractorId": "ctr-003",
+      "legalName": "M/s Kaveri Road Builders",
+      "performanceGrade": "C",
+      "performanceScore": 0.58,
+      "totalWorks": 8,
+      "worksDelayed": 2,
+      "dlpViolations": 3,
+      "totalSanctionedValue": 30120000
+    },
+    {
+      "contractorId": "ctr-006",
+      "legalName": "M/s Metro Roads & Bridges",
+      "performanceGrade": "C",
+      "performanceScore": 0.56,
+      "totalWorks": 8,
+      "worksDelayed": 2,
+      "dlpViolations": 3,
+      "totalSanctionedValue": 30680000
+    },
+    {
+      "contractorId": "ctr-005",
+      "legalName": "M/s South City Engineers",
+      "performanceGrade": "C",
+      "performanceScore": 0.55,
+      "totalWorks": 10,
+      "worksDelayed": 3,
+      "dlpViolations": 3,
+      "totalSanctionedValue": 26970000
+    },
+    {
+      "contractorId": "ctr-002",
+      "legalName": "M/s ABC Infra Pvt Ltd",
+      "performanceGrade": "D",
+      "performanceScore": 0.38,
+      "totalWorks": 5,
+      "worksDelayed": 4,
+      "dlpViolations": 4,
+      "totalSanctionedValue": 27360000
+    }
+  ]
+}

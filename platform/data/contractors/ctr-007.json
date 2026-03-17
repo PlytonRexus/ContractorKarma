@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-007",
+  "legalName": "M/s Lakshmi Civil Works",
+  "registrationNumber": "BBMP/CR/2022/511",
+  "registrationClass": "Class III",
+  "address": "No. 3, Bannerghatta Road, Bengaluru",
+  "stats": {
+    "totalWorks": 7,
+    "totalSanctionedValue": 10300000,
+    "worksCompletedOnTime": 5,
+    "worksDelayed": 1,
+    "dlpViolations": 2,
+    "avgCostPerKm": 3500000,
+    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
+    "performanceGrade": "B",
+    "performanceScore": 0.72
+  },
+  "blacklisted": false,
+  "works": ["150-23-000006", "150-18-000014", "150-20-000026", "150-23-000031", "150-23-000039", "150-24-000046", "168-24-000004", "176-22-000003"]
+}

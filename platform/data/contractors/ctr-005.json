@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-005",
+  "legalName": "M/s South City Engineers",
+  "registrationNumber": "BBMP/CR/2021/445",
+  "registrationClass": "Class II",
+  "address": "No. 23, Jayanagar 9th Block, Bengaluru",
+  "stats": {
+    "totalWorks": 10,
+    "totalSanctionedValue": 26970000,
+    "worksCompletedOnTime": 6,
+    "worksDelayed": 3,
+    "dlpViolations": 3,
+    "avgCostPerKm": 4100000,
+    "wardsActive": ["150-bellandur", "168-jayanagar", "176-btm-layout"],
+    "performanceGrade": "C",
+    "performanceScore": 0.55
+  },
+  "blacklisted": false,
+  "works": ["150-19-000020", "150-23-000021", "150-21-000030", "150-21-000038", "150-21-000044", "150-24-000052", "150-23-000057", "168-23-000002", "168-24-000006", "176-21-000001", "176-22-000005"]
+}

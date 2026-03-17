@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-03-17",
+  "totalApplications": 5,
+  "applications": [
+    {
+      "rtiId": "KA-RTI-2026-001",
+      "filedDate": "2026-01-15",
+      "authority": "BBMP Chief Engineer",
+      "subject": "Details of road works in Ward 150 (Bellandur) from 2020-2025",
+      "status": "responseReceived",
+      "responseDate": "2026-02-14",
+      "worksDisclosed": 45,
+      "firstAppealFiled": false
+    },
+    {
+      "rtiId": "KA-RTI-2026-002",
+      "filedDate": "2026-02-01",
+      "authority": "BBMP Executive Engineer, Mahadevapura",
+      "subject": "Contractor-wise expenditure and DLP details for Bellandur ward roads",
+      "status": "responseReceived",
+      "responseDate": "2026-03-01",
+      "worksDisclosed": 30,
+      "firstAppealFiled": false
+    },
+    {
+      "rtiId": "KA-RTI-2026-003",
+      "filedDate": "2026-02-20",
+      "authority": "BBMP Executive Engineer, South Zone",
+      "subject": "Road works details for Jayanagar and BTM Layout wards 2020-2025",
+      "status": "partialResponse",
+      "responseDate": "2026-03-15",
+      "worksDisclosed": 8,
+      "firstAppealFiled": true
+    },
+    {
+      "rtiId": "KA-RTI-2025-018",
+      "filedDate": "2025-06-10",
+      "authority": "BBMP Commissioner",
+      "subject": "White-topping project details on Sarjapur Road",
+      "status": "responseReceived",
+      "responseDate": "2025-07-09",
+      "worksDisclosed": 2,
+      "firstAppealFiled": false
+    },
+    {
+      "rtiId": "KA-RTI-2025-022",
+      "filedDate": "2025-09-05",
+      "authority": "BBMP Chief Engineer",
+      "subject": "DLP compliance report for Mahadevapura zone 2018-2024",
+      "status": "noResponse",
+      "responseDate": null,
+      "worksDisclosed": 0,
+      "firstAppealFiled": true
+    }
+  ]
+}

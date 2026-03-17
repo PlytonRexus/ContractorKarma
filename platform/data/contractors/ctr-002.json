@@ -1,0 +1,20 @@
+{
+  "contractorId": "ctr-002",
+  "legalName": "M/s ABC Infra Pvt Ltd",
+  "registrationNumber": "BBMP/CR/2018/203",
+  "registrationClass": "Class I",
+  "address": "No. 18, Rajajinagar Industrial Estate, Bengaluru",
+  "stats": {
+    "totalWorks": 5,
+    "totalSanctionedValue": 27360000,
+    "worksCompletedOnTime": 1,
+    "worksDelayed": 4,
+    "dlpViolations": 4,
+    "avgCostPerKm": 5200000,
+    "wardsActive": ["150-bellandur"],
+    "performanceGrade": "D",
+    "performanceScore": 0.38
+  },
+  "blacklisted": false,
+  "works": ["150-21-000001", "150-23-000002", "150-22-000019", "150-21-000009", "150-22-000023", "150-23-000058"]
+}

@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: platform/package-lock.json
+
+      - name: Install dependencies
+        run: cd platform && npm ci
+
+      - name: Validate data
+        run: cd platform && npm run validate-data
+
+      - name: Build static site
+        run: cd platform && npm run build
+
+      - name: Verify build output
+        run: |
+          test -f platform/out/index.html
+          test -f platform/out/dlp/index.html
+          test -f platform/out/about/index.html
+          test -d platform/out/road/bengaluru
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: platform/out
+
+      - uses: actions/deploy-pages@v4
